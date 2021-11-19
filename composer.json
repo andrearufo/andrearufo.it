@@ -1,0 +1,15 @@
+{
+    "name": "andrearufo/andrearufo.it",
+    "description": "Personal website",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrea Rufo",
+            "email": "a.rufo@axio.studio"
+        }
+    ],
+    "require": {
+        "tightenco/jigsaw": "^1.3"
+    }
+}
