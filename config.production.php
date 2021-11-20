@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'baseUrl' => 'https://www.andrearufo.it',
+    'baseUrl' => 'https://tender-lichterman-38e526.netlify.app',
     'production' => true,
 ];
