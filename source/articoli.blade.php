@@ -2,14 +2,18 @@
 
 @section('body')
 
-<section class="informazioni">
-    <div class="row justify-content-center">
-        <div class="col-xl-8 col-lg-9">
+    <h1>Articoli</h1>
 
-            <h1>Articoli</h1>
+    <p>Total of {{ $articoli->count() }} posts</p>
 
-        </div>
-    </div>
-</section>
+    <ul>
+        @foreach ($articoli as $post)
+            <li>
+                <a href="{{ $post->getPath() }}">
+                    {{ $post->title }}
+                </a>
+            </li>
+        @endforeach
+    </ul>
 
 @endsection

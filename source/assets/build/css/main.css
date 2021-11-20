@@ -259,7 +259,7 @@ pre {
   margin-top: 0;
   margin-bottom: 1rem;
   overflow: auto;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 pre code {
   font-size: inherit;
@@ -268,7 +268,7 @@ pre code {
 }
 
 code {
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: #d63384;
   word-wrap: break-word;
 }
@@ -278,7 +278,7 @@ a > code {
 
 kbd {
   padding: 0.2rem 0.4rem;
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: #fff;
   background-color: #212529;
   border-radius: 0.2rem;
@@ -555,20 +555,20 @@ progress {
   }
 }
 
-.list-unstyled, #menu ul.menu {
+.list-unstyled, #mobilemenu ul.menu {
   padding-left: 0;
   list-style: none;
 }
 
-.list-inline, ul.tags, .pages ul.page-numbers, footer .footer-item .footer-item-content ul {
+.list-inline, ul.tags, .pages ul.page-numbers, footer .footer-item .footer-item-content ul, #desktopmenu ul.menu {
   padding-left: 0;
   list-style: none;
 }
 
-.list-inline-item, ul.tags > li, .pages ul.page-numbers > li, footer .footer-item .footer-item-content ul > li {
+.list-inline-item, ul.tags > li, .pages ul.page-numbers > li, footer .footer-item .footer-item-content ul > li, #desktopmenu ul.menu li.menu-item {
   display: inline-block;
 }
-.list-inline-item:not(:last-child), ul.tags > li:not(:last-child), .pages ul.page-numbers > li:not(:last-child), footer .footer-item .footer-item-content ul > li:not(:last-child) {
+.list-inline-item:not(:last-child), ul.tags > li:not(:last-child), .pages ul.page-numbers > li:not(:last-child), footer .footer-item .footer-item-content ul > li:not(:last-child), #desktopmenu ul.menu li.menu-item:not(:last-child) {
   margin-right: 0.5rem;
 }
 
@@ -11376,6 +11376,22 @@ header {
   background-color: rgba(246, 246, 246, 0.7);
 }
 
+#desktopmenu ul.menu {
+  margin-bottom: 0;
+}
+#desktopmenu li.menu-item a,
+#mobilemenu li.menu-item a {
+  text-decoration: none;
+}
+#desktopmenu li.menu-item.current-menu-item,
+#mobilemenu li.menu-item.current-menu-item {
+  font-weight: bold;
+}
+#desktopmenu li.menu-item.current-menu-item a,
+#mobilemenu li.menu-item.current-menu-item a {
+  text-decoration: underline;
+}
+
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 2rem;
 }
@@ -11383,16 +11399,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 h1, .h1 {
   font-weight: 800;
   line-height: 1.4;
-}
-
-#menu ul.menu li.menu-item a {
-  text-decoration: none;
-}
-#menu ul.menu li.menu-item.current-menu-item {
-  font-weight: bold;
-}
-#menu ul.menu li.menu-item.current-menu-item a {
-  text-decoration: underline;
+  margin-top: 0;
 }
 
 .spacerline {
@@ -11424,10 +11431,9 @@ hr {
   border: 0;
 }
 
-pre.wp-block-code,
-pre.wp-block-preformatted {
-  background-color: #f8f9fa;
-  margin: 2rem;
+pre {
+  background-color: #fff;
+  margin: 2rem 0;
   padding: 2rem;
   border-radius: 0.25rem;
 }

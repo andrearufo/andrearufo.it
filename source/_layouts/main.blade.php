@@ -2,45 +2,30 @@
 <html lang="{{ $page->language ?? 'it' }}">
 <head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="canonical" href="{{ $page->getUrl() }}">
-    <meta name="description" content="{{ $page->description }}">
-
-    <title>{{ $page->title }}</title>
-
-    <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
-    <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
-    <script defer src="https://kit.fontawesome.com/7319c752cd.js"></script>
-    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+    @include('_parts.meta')
 
 </head>
 <body>
 
-    <div id="cookie">
-        <div id="cookie-wrapper">
-            <div id="cookie-content">
-                <i class="fad fa-cookie-bite me-2"></i>
-                Questo sito <em>potrebbe</em> usare i cookie
-            </div>
-            <button id="cookie-ok">Ok</button>
-        </div>
-    </div>
-
-    @include('_layouts.header')
-
-    @include('_layouts.menu')
+    @include('_parts.header')
 
     <main class="py-3">
         <div class="container">
 
-            @yield('body')
+            <section class="{{ $page->getFilename() }}">
+                <div class="row justify-content-center">
+                    <div class="col-xl-8 col-lg-9">
+
+                        @yield('body')
+
+                    </div>
+                </div>
+            </section>
 
         </div>
     </main>
 
-    @include('_layouts.footer')
+    @include('_parts.footer')
 
 </body>
 </html>

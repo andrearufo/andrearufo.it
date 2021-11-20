@@ -1632,7 +1632,7 @@ $small-font-size: $font-size-sm;
 
 // // Code
 
-// $code-font-size:                    $small-font-size !default;
+$code-font-size: $font-size-base;
 // $code-color:                        $pink !default;
 
 // $kbd-padding-y:                     .2rem !default;

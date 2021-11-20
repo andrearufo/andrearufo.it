@@ -14,6 +14,40 @@ header{
     background-color: rgba($body-bg, .7);
 }
 
+#desktopmenu{
+    ul.menu{
+        @extend .list-inline;
+        margin-bottom: 0;
+
+        li.menu-item{
+            @extend .list-inline-item;
+        }
+    }
+}
+
+#mobilemenu{
+    ul.menu{
+        @extend .list-unstyled;
+    }
+}
+
+#desktopmenu,
+#mobilemenu{
+    li.menu-item{
+        a{
+            text-decoration: none;
+        }
+
+        &.current-menu-item{
+            font-weight: bold;
+
+            a{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
 img {
     @extend .img-fluid;
 }
@@ -31,26 +65,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1{
 h1{
     font-weight: 800;
     line-height: 1.4;
-}
-
-#menu{
-    ul.menu{
-        @extend .list-unstyled;
-
-        li.menu-item{
-            a{
-                text-decoration: none;
-            }
-
-            &.current-menu-item{
-                font-weight: bold;
-
-                a{
-                    text-decoration: underline;
-                }
-            }
-        }
-    }
+    margin-top: 0;
 }
 
 .spacerline{
@@ -100,12 +115,11 @@ hr{
     border: 0;
 }
 
-pre.wp-block-code,
-pre.wp-block-preformatted{
-    background-color: $light;
-    margin: $spacer;
+pre{
+    background-color: $white;
+    margin: $spacer 0;
     padding: $spacer;
-    border-radius: $border-radius;
+    border-radius: $border-radius;;
 }
 
 .wp-block-cp-codepen-gutenberg-embed-block{

@@ -2,7 +2,7 @@
 
 return [
     'production' => false,
-    'baseUrl' => '',
+    'baseUrl' => 'http://localhost:3000',
     'title' => 'Andrea Rufo, freelance full stack web developer personal portfolio',
     'description' => 'Sito web e portofolio di Andrea Rufo, full stack web developer. Programmazione di siti web e applicazioni. Specializzato in Larave, Vue, PWA, WordPress e webdesign.',
     'socials' => [
@@ -13,5 +13,13 @@ return [
         'youtube' => 'https://www.youtube.com/c/andrearufo'
     ],
     'menu' => require_once('config_menu.php'),
-    'collections' => [],
+    'curriculum' => require_once('config_curriculum.php'),
+    'contatti' => require_once('config_contatti.php'),
+    'collections' => [
+        'articoli' => [
+            'path' => 'articoli/{created_at|Y/m/d}/{filename}',
+            'sort' => 'created_at',
+            'author' => 'Andrea Rufo',
+        ],
+    ],
 ];

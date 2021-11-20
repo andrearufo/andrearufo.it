@@ -3101,6 +3101,42 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap.esm.js");
 
 
+/*
+(function($){
+
+	var scripts = {};
+
+	// Define Functions
+
+	scripts.cookie = function(){
+
+        var consent = localStorage.getItem('cookie-consent');
+
+        if(consent != 'true'){
+            $('#cookie').fadeIn();
+        }
+
+        $('#cookie-ok').click(function(event){
+            localStorage.setItem('cookie-consent', 'true');
+            $('#cookie').fadeOut();
+        });
+
+	};
+
+	// Start Functions
+
+	$(document).ready(function() {
+		scripts.cookie();
+	});
+
+	$(window).on('load', function() {
+		console.log('Loaded...');
+		$('body').addClass('body-loaded');
+	});
+
+})(jQuery);
+
+*/
 
 /***/ }),
 

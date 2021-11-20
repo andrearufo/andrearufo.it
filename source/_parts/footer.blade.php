@@ -2,7 +2,7 @@
     <div class="container">
 
         <div class="row justify-content-between">
-            <div class="col-lg-3">
+            <div class="col-lg-4 col-xl-3">
 
                 <div class="footer-item">
                     <div class="footer-item-title">
@@ -17,7 +17,7 @@
                 </div>
 
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-4 col-xl-3">
 
                 <div class="footer-item">
                     <div class="footer-item-title">
@@ -51,5 +51,15 @@
             </div>
         </div>
 
+    </div>
+
+    <div id="cookie">
+        <div id="cookie-wrapper">
+            <div id="cookie-content">
+                <i class="fad fa-cookie-bite me-2"></i>
+                Questo sito <em>potrebbe</em> usare i cookie
+            </div>
+            <button id="cookie-ok">Ok</button>
+        </div>
     </div>
 </footer>
