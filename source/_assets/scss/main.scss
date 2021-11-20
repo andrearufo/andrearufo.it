@@ -1,1 +1,232 @@
-@import 'bootstrap';
+@use "sass:math";
+
+// @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap");
+
+@import "variables";
+@import "bootstrap";
+
+header{
+    backdrop-filter: saturate(180%) blur(20px);
+    background-color: rgba($body-bg, .7);
+}
+
+img {
+    @extend .img-fluid;
+}
+
+// .page, #blog{
+//     h1{
+//         display: none;
+//     }
+// }
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1{
+    margin-top: $headings-margin-bottom;
+}
+
+h1{
+    font-weight: 800;
+    line-height: 1.4;
+}
+
+#menu{
+    ul.menu{
+        @extend .list-unstyled;
+
+        li.menu-item{
+            a{
+                text-decoration: none;
+            }
+
+            &.current-menu-item{
+                font-weight: bold;
+
+                a{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+.spacerline{
+    display: block;
+    width: 100%;
+    border-bottom: 1px dotted $border-color;
+    margin-bottom: .3rem;
+}
+
+footer{
+    color: $text-muted;
+    font-size: $font-size-sm;
+
+    .footer-item{
+        padding: $spacer 0;
+
+        .footer-item-title{}
+
+        .footer-item-content{
+            ul{
+                @extend .list-inline;
+                margin: 0;
+
+                > li{
+                    @extend .list-inline-item;
+                }
+            }
+        }
+    }
+}
+
+p{
+    code{
+        font-size: $font-size-base;
+    }
+}
+
+// h2{
+//     background-color: $secondary;
+// }
+
+hr{
+    width: 20%;
+}
+
+.wp-block-separator{
+    border: 0;
+}
+
+pre.wp-block-code,
+pre.wp-block-preformatted{
+    background-color: $light;
+    margin: $spacer;
+    padding: $spacer;
+    border-radius: $border-radius;
+}
+
+.wp-block-cp-codepen-gutenberg-embed-block{
+    margin-bottom: $paragraph-margin-bottom;
+}
+
+figure.wp-block-embed{
+    .wp-block-embed__wrapper{
+        @extend .ratio;
+    }
+
+    &.wp-embed-aspect-16-9{
+        .wp-block-embed__wrapper{
+            @extend .ratio-16x9;
+        }
+    }
+
+    figcaption{
+        @extend .border-start;
+        @extend .border-3;
+        margin-top: $spacer;
+        padding-left: $spacer;
+        font-size: $font-size-sm;
+        color: $text-muted;
+    }
+}
+
+blockquote.wp-block-quote{
+    @extend .blockquote;
+}
+
+.border-lg-end{
+    @include media-breakpoint-up(lg){
+        border-right: 1px solid $border-color;
+    }
+}
+
+.pages{
+    text-align: center;
+    margin-top: $spacer;
+
+    ul.page-numbers{
+        @extend .list-inline;
+        margin: 0;
+
+        > li{
+            @extend .list-inline-item;
+
+            span, a{
+                @extend .btn;
+                @extend .btn-link;
+                text-decoration: none;
+
+                &.current{
+                    font-weight: bold;
+                }
+            }
+
+            // <li><span aria-current="page" class="page-numbers current">1</span></li>
+            // <li><a class="page-numbers" href="//localhost:3000/articoli/page/2/">2</a></li>
+            // <li><a class="next page-numbers" href="//localhost:3000/articoli/page/2/">---&gt;</a></li>
+
+        }
+    }
+}
+
+ul.tags{
+    @extend .list-inline;
+    margin-top: $spacer;
+
+    > li {
+        @extend .list-inline-item;
+
+        > a, > span{
+            @extend .badge;
+            background-color: $dark;
+            color: $light;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+    }
+
+}
+
+#cookie{
+    display: none;
+    position: fixed;
+    bottom: $spacer;
+    left: 0;
+    width: 100%;
+    z-index: 1090;
+    font-size: $font-size-sm;
+
+    #cookie-wrapper{
+        background: $gray-900;
+        color: $white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        min-width: 340px;
+        width: 0;
+        max-width: 90%;
+        padding: 1rem 0;
+        margin: auto;
+
+        #cookie-content,
+        #cookie-ok{
+            padding: 0 1rem;
+            text-align: center;
+        }
+
+        #cookie-content{
+            border-right: 1px solid $white;
+        }
+
+        #cookie-ok{
+            border: 0;
+            background: none;
+            color: inherit;
+        }
+    }
+}
