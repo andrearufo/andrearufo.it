@@ -77,7 +77,7 @@
                         </div>
                         <div class="col d-none d-md-flex"><div class="spacerline"></div></div>
                         <div class="col-12 col-md-auto text-md-end">
-                            {{ date('j M Y', $page->created_at) }}
+                            {{ date('j M Y', $item->created_at) }}
                         </div>
                     </div>
                 </article>
