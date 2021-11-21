@@ -18,8 +18,16 @@ return [
     'collections' => [
         'articoli' => [
             'path' => 'articoli/{created_at|Y/m/d}/{filename}',
-            'sort' => 'created_at',
+            'sort' => '-created_at',
             'author' => 'Andrea Rufo',
+        ],
+        'portfolio' => [
+            'path' => 'articoli/{filename}',
+            'sort' => ['minore', '-anno'],
+            'author' => 'Andrea Rufo',
+            // 'filter' => function ($item) {
+            //     return !$item->minore;
+            // }
         ],
     ],
 ];

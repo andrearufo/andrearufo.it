@@ -1,9 +1,9 @@
 ---
 extends: _layouts.articoli
-section: body
 title: Come si usa Bootstrap, compilarlo e includerlo nel progetto
 image: scss-bootstrap.jpg
 created_at: 2020-10-29
+section: body
 ---
 
 ## [https://getbootstrap.com/](Bootstrap) è probabilmente il più diffuso framework frontend web e viene largamente utilizzato nella creazione di siti, temi, app e sistemi.

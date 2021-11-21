@@ -28,7 +28,7 @@
                         <div class="col-xl-10 col-lg-10">
 
                             <div class="mb-5">
-                                <img src="/assets/images/articoli/{{ $page->image }}" class="shadow rounded w-100">
+                                <img src="/assets/images/articoli/{{ $page->image }}" class="shadow rounded w-100" title="{{ $page->image }}">
                             </div>
 
                         </div>
