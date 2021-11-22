@@ -10,7 +10,7 @@
                     </div>
                     <div class="footer-item-content">
                         <ul>
-                            <li><a target="_blank" href="mailto:&#105;&#110;&#102;&#111;&#064;&#097;&#110;&#100;&#114;&#101;&#097;&#114;&#117;&#102;&#111;&#046;&#105;&#116;">&#105;&#110;&#102;&#111;&#064;&#097;&#110;&#100;&#114;&#101;&#097;&#114;&#117;&#102;&#111;&#046;&#105;&#116;</a></li>
+                            <li><a target="_blank" href="mailto:a.rufo@axio.studio">a.rufo@axio.studio</a></li>
                             <li><a target="_blank" href="tel:+393386213493">+39 338 62 13 493</a></li>
                         </ul>
                     </div>
@@ -45,6 +45,13 @@
 
                     <div class="footer-item-content">
                         Tutti i marchi riportati appartengono ai legittimi proprietari; marchi di terzi, nomi di prodotti, nomi commerciali, nomi corporativi e società citati possono essere marchi di proprietà dei rispettivi titolari o marchi registrati d’altre società e vengono utilizzati a puro scopo esplicativo ed a beneficio del possessore, senza alcun fine di violazione dei diritti di Copyright vigenti.
+                    </div>
+
+                    <div class="footer-item-content">
+                        <div class="text-muted">
+                            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0 2021</a>
+                            © Andrea Rufo
+                        </div>
                     </div>
                 </div>
 

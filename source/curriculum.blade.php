@@ -8,7 +8,7 @@
 
         <div class="mb-4">
             <div class="row">
-                <div class="col-3 col-lg-2 border-lg-end">
+                <div class="col-3 col-lg-1 border-lg-end pt-1">
 
                     <img src="/assets/images/curriculum/{{ $item['logo'] }}" alt="{{ $item['azienda'] }}" class="rounded">
 

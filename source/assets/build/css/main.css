@@ -577,11 +577,11 @@ progress {
   text-transform: uppercase;
 }
 
-.blockquote, blockquote.wp-block-quote {
+.blockquote, blockquote {
   margin-bottom: 2rem;
   font-size: 1.25rem;
 }
-.blockquote > :last-child, blockquote.wp-block-quote > :last-child {
+.blockquote > :last-child, blockquote > :last-child {
   margin-bottom: 0;
 }
 
