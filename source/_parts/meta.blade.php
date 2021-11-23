@@ -1,15 +1,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<link rel="canonical" href="{{ $page->getUrl() }}">
 <meta name="description" content="{{ $page->description }}">
 
 <title>{{ $page->title }}</title>
 
-<link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
-<script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
-<script defer src="https://kit.fontawesome.com/7319c752cd.js"></script>
+<link rel="canonical" href="{{ $page->getUrl() }}">
 <link rel="icon" type="image/svg+xml" href="{{ $page->baseUrl }}/assets/images/favicon.svg">
+<link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-4918423-11"></script>
