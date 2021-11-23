@@ -103,16 +103,8 @@ p{
     }
 }
 
-// h2{
-//     background-color: $secondary;
-// }
-
 hr{
     width: 20%;
-}
-
-.wp-block-separator{
-    border: 0;
 }
 
 pre{
@@ -120,31 +112,6 @@ pre{
     margin: $spacer 0;
     padding: $spacer;
     border-radius: $border-radius;;
-}
-
-.wp-block-cp-codepen-gutenberg-embed-block{
-    margin-bottom: $paragraph-margin-bottom;
-}
-
-figure.wp-block-embed{
-    .wp-block-embed__wrapper{
-        @extend .ratio;
-    }
-
-    &.wp-embed-aspect-16-9{
-        .wp-block-embed__wrapper{
-            @extend .ratio-16x9;
-        }
-    }
-
-    figcaption{
-        @extend .border-start;
-        @extend .border-3;
-        margin-top: $spacer;
-        padding-left: $spacer;
-        font-size: $font-size-sm;
-        color: $text-muted;
-    }
 }
 
 blockquote{
@@ -157,53 +124,20 @@ blockquote{
     }
 }
 
-.pages{
-    text-align: center;
-    margin-top: $spacer;
-
-    ul.page-numbers{
-        @extend .list-inline;
-        margin: 0;
-
-        > li{
-            @extend .list-inline-item;
-
-            span, a{
-                @extend .btn;
-                @extend .btn-link;
-                text-decoration: none;
-
-                &.current{
-                    font-weight: bold;
-                }
-            }
-
-            // <li><span aria-current="page" class="page-numbers current">1</span></li>
-            // <li><a class="page-numbers" href="//localhost:3000/articoli/page/2/">2</a></li>
-            // <li><a class="next page-numbers" href="//localhost:3000/articoli/page/2/">---&gt;</a></li>
-
-        }
-    }
-}
-
-ul.tags{
-    @extend .list-inline;
-    margin-top: $spacer;
-
-    > li {
-        @extend .list-inline-item;
-
-        > a, > span{
-            @extend .badge;
-            background-color: $dark;
-            color: $light;
-            text-decoration: none;
-            display: inline-block;
-        }
-
-    }
-
-}
+// ul.tags{
+//     @extend .list-inline;
+//     margin-top: $spacer;
+//     > li {
+//         @extend .list-inline-item;
+//         > a, > span{
+//             @extend .badge;
+//             background-color: $dark;
+//             color: $light;
+//             text-decoration: none;
+//             display: inline-block;
+//         }
+//     }
+// }
 
 #cookie{
     display: none;

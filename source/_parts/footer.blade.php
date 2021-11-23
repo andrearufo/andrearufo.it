@@ -70,3 +70,6 @@
         </div>
     </div>
 </footer>
+
+<script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
+<script defer src="https://kit.fontawesome.com/7319c752cd.js"></script>

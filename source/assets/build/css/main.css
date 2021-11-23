@@ -560,15 +560,15 @@ progress {
   list-style: none;
 }
 
-.list-inline, ul.tags, .pages ul.page-numbers, footer .footer-item .footer-item-content ul, #desktopmenu ul.menu {
+.list-inline, footer .footer-item .footer-item-content ul, #desktopmenu ul.menu {
   padding-left: 0;
   list-style: none;
 }
 
-.list-inline-item, ul.tags > li, .pages ul.page-numbers > li, footer .footer-item .footer-item-content ul > li, #desktopmenu ul.menu li.menu-item {
+.list-inline-item, footer .footer-item .footer-item-content ul > li, #desktopmenu ul.menu li.menu-item {
   display: inline-block;
 }
-.list-inline-item:not(:last-child), ul.tags > li:not(:last-child), .pages ul.page-numbers > li:not(:last-child), footer .footer-item .footer-item-content ul > li:not(:last-child), #desktopmenu ul.menu li.menu-item:not(:last-child) {
+.list-inline-item:not(:last-child), footer .footer-item .footer-item-content ul > li:not(:last-child), #desktopmenu ul.menu li.menu-item:not(:last-child) {
   margin-right: 0.5rem;
 }
 
@@ -2574,7 +2574,7 @@ textarea.form-control-lg {
   clip: rect(0, 0, 0, 0);
   pointer-events: none;
 }
-.btn-check[disabled] + .btn, .pages ul.page-numbers > li .btn-check[disabled] + span, .pages ul.page-numbers > li .btn-check[disabled] + a, .btn-check:disabled + .btn, .pages ul.page-numbers > li .btn-check:disabled + span, .pages ul.page-numbers > li .btn-check:disabled + a {
+.btn-check[disabled] + .btn, .btn-check:disabled + .btn {
   pointer-events: none;
   filter: none;
   opacity: 0.65;
@@ -2763,11 +2763,11 @@ textarea.form-control-lg {
 .input-group > .form-select:focus {
   z-index: 3;
 }
-.input-group .btn, .input-group .pages ul.page-numbers > li span, .pages ul.page-numbers > li .input-group span, .input-group .pages ul.page-numbers > li a, .pages ul.page-numbers > li .input-group a {
+.input-group .btn {
   position: relative;
   z-index: 2;
 }
-.input-group .btn:focus, .input-group .pages ul.page-numbers > li span:focus, .pages ul.page-numbers > li .input-group span:focus, .input-group .pages ul.page-numbers > li a:focus, .pages ul.page-numbers > li .input-group a:focus {
+.input-group .btn:focus {
   z-index: 3;
 }
 
@@ -2789,9 +2789,7 @@ textarea.form-control-lg {
 .input-group-lg > .form-control,
 .input-group-lg > .form-select,
 .input-group-lg > .input-group-text,
-.input-group-lg > .btn,
-.pages ul.page-numbers > li .input-group-lg > span,
-.pages ul.page-numbers > li .input-group-lg > a {
+.input-group-lg > .btn {
   padding: 0.5rem 1rem;
   font-size: calc(1.265rem + 0.18vw);
   border-radius: 0.3rem;
@@ -2800,9 +2798,7 @@ textarea.form-control-lg {
   .input-group-lg > .form-control,
 .input-group-lg > .form-select,
 .input-group-lg > .input-group-text,
-.input-group-lg > .btn,
-.pages ul.page-numbers > li .input-group-lg > span,
-.pages ul.page-numbers > li .input-group-lg > a {
+.input-group-lg > .btn {
     font-size: 1.4rem;
   }
 }
@@ -2810,9 +2806,7 @@ textarea.form-control-lg {
 .input-group-sm > .form-control,
 .input-group-sm > .form-select,
 .input-group-sm > .input-group-text,
-.input-group-sm > .btn,
-.pages ul.page-numbers > li .input-group-sm > span,
-.pages ul.page-numbers > li .input-group-sm > a {
+.input-group-sm > .btn {
   padding: 0.25rem 0.5rem;
   font-size: 0.8rem;
   border-radius: 0.2rem;
@@ -3017,7 +3011,7 @@ textarea.form-control-lg {
   z-index: 3;
 }
 
-.btn, .pages ul.page-numbers > li span, .pages ul.page-numbers > li a {
+.btn {
   display: inline-block;
   font-weight: 400;
   line-height: 1.8;
@@ -3038,18 +3032,18 @@ textarea.form-control-lg {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
-  .btn, .pages ul.page-numbers > li span, .pages ul.page-numbers > li a {
+  .btn {
     transition: none;
   }
 }
-.btn:hover, .pages ul.page-numbers > li span:hover, .pages ul.page-numbers > li a:hover {
+.btn:hover {
   color: #212529;
 }
-.btn-check:focus + .btn, .pages ul.page-numbers > li .btn-check:focus + span, .pages ul.page-numbers > li .btn-check:focus + a, .btn:focus, .pages ul.page-numbers > li span:focus, .pages ul.page-numbers > li a:focus {
+.btn-check:focus + .btn, .btn:focus {
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.25);
 }
-.btn:disabled, .pages ul.page-numbers > li span:disabled, .pages ul.page-numbers > li a:disabled, .btn.disabled, .pages ul.page-numbers > li span.disabled, .pages ul.page-numbers > li a.disabled, fieldset:disabled .btn, fieldset:disabled .pages ul.page-numbers > li span, .pages ul.page-numbers > li fieldset:disabled span, fieldset:disabled .pages ul.page-numbers > li a, .pages ul.page-numbers > li fieldset:disabled a {
+.btn:disabled, .btn.disabled, fieldset:disabled .btn {
   pointer-events: none;
   opacity: 0.65;
 }
@@ -3494,30 +3488,30 @@ textarea.form-control-lg {
   background-color: transparent;
 }
 
-.btn-link, .pages ul.page-numbers > li span, .pages ul.page-numbers > li a {
+.btn-link {
   font-weight: 400;
   color: black;
   text-decoration: underline;
 }
-.btn-link:hover, .pages ul.page-numbers > li span:hover, .pages ul.page-numbers > li a:hover {
+.btn-link:hover {
   color: black;
 }
-.btn-link:disabled, .pages ul.page-numbers > li span:disabled, .pages ul.page-numbers > li a:disabled, .btn-link.disabled, .pages ul.page-numbers > li span.disabled, .pages ul.page-numbers > li a.disabled {
+.btn-link:disabled, .btn-link.disabled {
   color: #6c757d;
 }
 
-.btn-lg, .btn-group-lg > .btn, .pages ul.page-numbers > li .btn-group-lg > span, .pages ul.page-numbers > li .btn-group-lg > a {
+.btn-lg, .btn-group-lg > .btn {
   padding: 0.5rem 1rem;
   font-size: calc(1.265rem + 0.18vw);
   border-radius: 0.3rem;
 }
 @media (min-width: 1200px) {
-  .btn-lg, .btn-group-lg > .btn, .pages ul.page-numbers > li .btn-group-lg > span, .pages ul.page-numbers > li .btn-group-lg > a {
+  .btn-lg, .btn-group-lg > .btn {
     font-size: 1.4rem;
   }
 }
 
-.btn-sm, .btn-group-sm > .btn, .pages ul.page-numbers > li .btn-group-sm > span, .pages ul.page-numbers > li .btn-group-sm > a {
+.btn-sm, .btn-group-sm > .btn {
   padding: 0.25rem 0.5rem;
   font-size: 0.8rem;
   border-radius: 0.2rem;
@@ -3872,47 +3866,23 @@ textarea.form-control-lg {
   display: inline-flex;
   vertical-align: middle;
 }
-.btn-group > .btn, .pages ul.page-numbers > li .btn-group > span, .pages ul.page-numbers > li .btn-group > a,
-.btn-group-vertical > .btn,
-.pages ul.page-numbers > li .btn-group-vertical > span,
-.pages ul.page-numbers > li .btn-group-vertical > a {
+.btn-group > .btn,
+.btn-group-vertical > .btn {
   position: relative;
   flex: 1 1 auto;
 }
-.btn-group > .btn-check:checked + .btn, .pages ul.page-numbers > li .btn-group > .btn-check:checked + span, .pages ul.page-numbers > li .btn-group > .btn-check:checked + a,
+.btn-group > .btn-check:checked + .btn,
 .btn-group > .btn-check:focus + .btn,
-.pages ul.page-numbers > li .btn-group > .btn-check:focus + span,
-.pages ul.page-numbers > li .btn-group > .btn-check:focus + a,
 .btn-group > .btn:hover,
-.pages ul.page-numbers > li .btn-group > span:hover,
-.pages ul.page-numbers > li .btn-group > a:hover,
 .btn-group > .btn:focus,
-.pages ul.page-numbers > li .btn-group > span:focus,
-.pages ul.page-numbers > li .btn-group > a:focus,
 .btn-group > .btn:active,
-.pages ul.page-numbers > li .btn-group > span:active,
-.pages ul.page-numbers > li .btn-group > a:active,
 .btn-group > .btn.active,
-.pages ul.page-numbers > li .btn-group > span.active,
-.pages ul.page-numbers > li .btn-group > a.active,
 .btn-group-vertical > .btn-check:checked + .btn,
-.pages ul.page-numbers > li .btn-group-vertical > .btn-check:checked + span,
-.pages ul.page-numbers > li .btn-group-vertical > .btn-check:checked + a,
 .btn-group-vertical > .btn-check:focus + .btn,
-.pages ul.page-numbers > li .btn-group-vertical > .btn-check:focus + span,
-.pages ul.page-numbers > li .btn-group-vertical > .btn-check:focus + a,
 .btn-group-vertical > .btn:hover,
-.pages ul.page-numbers > li .btn-group-vertical > span:hover,
-.pages ul.page-numbers > li .btn-group-vertical > a:hover,
 .btn-group-vertical > .btn:focus,
-.pages ul.page-numbers > li .btn-group-vertical > span:focus,
-.pages ul.page-numbers > li .btn-group-vertical > a:focus,
 .btn-group-vertical > .btn:active,
-.pages ul.page-numbers > li .btn-group-vertical > span:active,
-.pages ul.page-numbers > li .btn-group-vertical > a:active,
-.btn-group-vertical > .btn.active,
-.pages ul.page-numbers > li .btn-group-vertical > span.active,
-.pages ul.page-numbers > li .btn-group-vertical > a.active {
+.btn-group-vertical > .btn.active {
   z-index: 1;
 }
 
@@ -3925,24 +3895,18 @@ textarea.form-control-lg {
   width: auto;
 }
 
-.btn-group > .btn:not(:first-child), .pages ul.page-numbers > li .btn-group > span:not(:first-child), .pages ul.page-numbers > li .btn-group > a:not(:first-child),
+.btn-group > .btn:not(:first-child),
 .btn-group > .btn-group:not(:first-child) {
   margin-left: -1px;
 }
-.btn-group > .btn:not(:last-child):not(.dropdown-toggle), .pages ul.page-numbers > li .btn-group > span:not(:last-child):not(.dropdown-toggle), .pages ul.page-numbers > li .btn-group > a:not(:last-child):not(.dropdown-toggle),
-.btn-group > .btn-group:not(:last-child) > .btn,
-.pages ul.page-numbers > li .btn-group > .btn-group:not(:last-child) > span,
-.pages ul.page-numbers > li .btn-group > .btn-group:not(:last-child) > a {
+.btn-group > .btn:not(:last-child):not(.dropdown-toggle),
+.btn-group > .btn-group:not(:last-child) > .btn {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
-.btn-group > .btn:nth-child(n+3), .pages ul.page-numbers > li .btn-group > span:nth-child(n+3), .pages ul.page-numbers > li .btn-group > a:nth-child(n+3),
+.btn-group > .btn:nth-child(n+3),
 .btn-group > :not(.btn-check) + .btn,
-.pages ul.page-numbers > li .btn-group > :not(.btn-check) + span,
-.pages ul.page-numbers > li .btn-group > :not(.btn-check) + a,
-.btn-group > .btn-group:not(:first-child) > .btn,
-.pages ul.page-numbers > li .btn-group > .btn-group:not(:first-child) > span,
-.pages ul.page-numbers > li .btn-group > .btn-group:not(:first-child) > a {
+.btn-group > .btn-group:not(:first-child) > .btn {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
@@ -3958,12 +3922,12 @@ textarea.form-control-lg {
   margin-right: 0;
 }
 
-.btn-sm + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split, .pages ul.page-numbers > li .btn-group-sm > span + .dropdown-toggle-split, .pages ul.page-numbers > li .btn-group-sm > a + .dropdown-toggle-split {
+.btn-sm + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split {
   padding-right: 0.375rem;
   padding-left: 0.375rem;
 }
 
-.btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split, .pages ul.page-numbers > li .btn-group-lg > span + .dropdown-toggle-split, .pages ul.page-numbers > li .btn-group-lg > a + .dropdown-toggle-split {
+.btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split {
   padding-right: 0.75rem;
   padding-left: 0.75rem;
 }
@@ -3973,25 +3937,21 @@ textarea.form-control-lg {
   align-items: flex-start;
   justify-content: center;
 }
-.btn-group-vertical > .btn, .pages ul.page-numbers > li .btn-group-vertical > span, .pages ul.page-numbers > li .btn-group-vertical > a,
+.btn-group-vertical > .btn,
 .btn-group-vertical > .btn-group {
   width: 100%;
 }
-.btn-group-vertical > .btn:not(:first-child), .pages ul.page-numbers > li .btn-group-vertical > span:not(:first-child), .pages ul.page-numbers > li .btn-group-vertical > a:not(:first-child),
+.btn-group-vertical > .btn:not(:first-child),
 .btn-group-vertical > .btn-group:not(:first-child) {
   margin-top: -1px;
 }
-.btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle), .pages ul.page-numbers > li .btn-group-vertical > span:not(:last-child):not(.dropdown-toggle), .pages ul.page-numbers > li .btn-group-vertical > a:not(:last-child):not(.dropdown-toggle),
-.btn-group-vertical > .btn-group:not(:last-child) > .btn,
-.pages ul.page-numbers > li .btn-group-vertical > .btn-group:not(:last-child) > span,
-.pages ul.page-numbers > li .btn-group-vertical > .btn-group:not(:last-child) > a {
+.btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle),
+.btn-group-vertical > .btn-group:not(:last-child) > .btn {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
-.btn-group-vertical > .btn ~ .btn, .pages ul.page-numbers > li .btn-group-vertical > span ~ .btn, .pages ul.page-numbers > li .btn-group-vertical > a ~ .btn, .pages ul.page-numbers > li .btn-group-vertical > .btn ~ span, .pages ul.page-numbers > li .btn-group-vertical > span ~ span, .pages ul.page-numbers > li .btn-group-vertical > a ~ span, .pages ul.page-numbers > li .btn-group-vertical > .btn ~ a, .pages ul.page-numbers > li .btn-group-vertical > span ~ a, .pages ul.page-numbers > li .btn-group-vertical > a ~ a,
-.btn-group-vertical > .btn-group:not(:first-child) > .btn,
-.pages ul.page-numbers > li .btn-group-vertical > .btn-group:not(:first-child) > span,
-.pages ul.page-numbers > li .btn-group-vertical > .btn-group:not(:first-child) > a {
+.btn-group-vertical > .btn ~ .btn,
+.btn-group-vertical > .btn-group:not(:first-child) > .btn {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
@@ -4967,7 +4927,7 @@ textarea.form-control-lg {
   border-bottom-right-radius: 0.2rem;
 }
 
-.badge, ul.tags > li > a, ul.tags > li > span {
+.badge {
   display: inline-block;
   padding: 0.35em 0.65em;
   font-size: 0.75em;
@@ -4979,11 +4939,11 @@ textarea.form-control-lg {
   vertical-align: baseline;
   border-radius: 0.25rem;
 }
-.badge:empty, ul.tags > li > a:empty, ul.tags > li > span:empty {
+.badge:empty {
   display: none;
 }
 
-.btn .badge, .btn ul.tags > li > a, .btn ul.tags > li > span, .pages ul.page-numbers > li span .badge, .pages ul.page-numbers > li span ul.tags > li > a, .pages ul.page-numbers > li span ul.tags > li > span, .pages ul.page-numbers > li a .badge, .pages ul.page-numbers > li a ul.tags > li > a, .pages ul.page-numbers > li a ul.tags > li > span {
+.btn .badge {
   position: relative;
   top: -1px;
 }
@@ -6455,7 +6415,7 @@ textarea.form-control-lg {
   background-color: currentColor;
   opacity: 0.5;
 }
-.placeholder.btn::before, .pages ul.page-numbers > li span.placeholder::before, .pages ul.page-numbers > li a.placeholder::before {
+.placeholder.btn::before {
   display: inline-block;
   content: "";
 }
@@ -6572,16 +6532,16 @@ textarea.form-control-lg {
   color: #1a1e21;
 }
 
-.ratio, figure.wp-block-embed .wp-block-embed__wrapper {
+.ratio {
   position: relative;
   width: 100%;
 }
-.ratio::before, figure.wp-block-embed .wp-block-embed__wrapper::before {
+.ratio::before {
   display: block;
   padding-top: var(--bs-aspect-ratio);
   content: "";
 }
-.ratio > *, figure.wp-block-embed .wp-block-embed__wrapper > * {
+.ratio > * {
   position: absolute;
   top: 0;
   left: 0;
@@ -6597,7 +6557,7 @@ textarea.form-control-lg {
   --bs-aspect-ratio: 75%;
 }
 
-.ratio-16x9, figure.wp-block-embed.wp-embed-aspect-16-9 .wp-block-embed__wrapper {
+.ratio-16x9 {
   --bs-aspect-ratio: 56.25%;
 }
 
@@ -6961,7 +6921,7 @@ textarea.form-control-lg {
   border-bottom: 0 !important;
 }
 
-.border-start, figure.wp-block-embed figcaption {
+.border-start {
   border-left: 1px solid #dee2e6 !important;
 }
 
@@ -7013,7 +6973,7 @@ textarea.form-control-lg {
   border-width: 2px !important;
 }
 
-.border-3, figure.wp-block-embed figcaption {
+.border-3 {
   border-width: 3px !important;
 }
 
@@ -11427,10 +11387,6 @@ hr {
   width: 20%;
 }
 
-.wp-block-separator {
-  border: 0;
-}
-
 pre {
   background-color: #fff;
   margin: 2rem 0;
@@ -11438,45 +11394,10 @@ pre {
   border-radius: 0.25rem;
 }
 
-.wp-block-cp-codepen-gutenberg-embed-block {
-  margin-bottom: 1rem;
-}
-
-figure.wp-block-embed figcaption {
-  margin-top: 2rem;
-  padding-left: 2rem;
-  font-size: 0.8rem;
-  color: #6c757d;
-}
-
 @media (min-width: 992px) {
   .border-lg-end {
     border-right: 1px solid #dee2e6;
   }
-}
-
-.pages {
-  text-align: center;
-  margin-top: 2rem;
-}
-.pages ul.page-numbers {
-  margin: 0;
-}
-.pages ul.page-numbers > li span, .pages ul.page-numbers > li a {
-  text-decoration: none;
-}
-.pages ul.page-numbers > li span.current, .pages ul.page-numbers > li a.current {
-  font-weight: bold;
-}
-
-ul.tags {
-  margin-top: 2rem;
-}
-ul.tags > li > a, ul.tags > li > span {
-  background-color: #212529;
-  color: #f8f9fa;
-  text-decoration: none;
-  display: inline-block;
 }
 
 #cookie {
