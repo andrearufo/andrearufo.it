@@ -8,6 +8,10 @@
 <link rel="icon" type="image/svg+xml" href="{{ $page->baseUrl }}/assets/images/favicon.svg">
 <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/color-brewer.min.css" integrity="sha512-SJm3cAu//Nn6+cv90D0Ue8ArsnjDlszVGE3o/0JX55VOd9/KVbSGTegrZhyNK6ttKMeLbR14ezeGWyBUmF1Aww==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js" integrity="sha512-Pbb8o120v5/hN/a6LjF4N4Lxou+xYZ0QcVF8J6TWhBbHmctQWd8O6xTDmHpE/91OjPzCk4JRoiJsexHYg4SotQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>hljs.highlightAll();</script>
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-4918423-11"></script>
 <script>

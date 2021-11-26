@@ -11388,9 +11388,9 @@ hr {
 }
 
 pre {
-  background-color: #fff;
   margin: 2rem 0;
-  padding: 2rem;
+}
+pre code {
   border-radius: 0.25rem;
 }
 

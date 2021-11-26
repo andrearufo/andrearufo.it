@@ -108,10 +108,11 @@ hr{
 }
 
 pre{
-    background-color: $white;
     margin: $spacer 0;
-    padding: $spacer;
-    border-radius: $border-radius;;
+
+    code{
+        border-radius: $border-radius;
+    }
 }
 
 blockquote{

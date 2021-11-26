@@ -6,13 +6,13 @@ created_at: 2020-10-29
 section: body
 ---
 
-## [https://getbootstrap.com/](Bootstrap) è probabilmente il più diffuso framework frontend web e viene largamente utilizzato nella creazione di siti, temi, app e sistemi.
+## [Bootstrap](https://getbootstrap.com/) è probabilmente il più diffuso framework frontend web e viene largamente utilizzato nella creazione di siti, temi, app e sistemi.
 
-Esiste fin dalla metà del 2010 ed era inizialmente solo un piccolo progetto interno di Twitter che poi, nella metà del 2011, venne rilasciato come [https://github.com/twbs/bootstrap](open source). Da qui fino ad oggi, alla sua **versione 5**.
+Esiste fin dalla metà del 2010 ed era inizialmente solo un piccolo progetto interno di Twitter che poi, nella metà del 2011, venne rilasciato come [open source](https://github.com/twbs/bootstrap). Da qui fino ad oggi, alla sua **versione 5**.
 
 Chiunque può quindi scaricarlo e utilizzarne i codici, personalizzarlo ed includerlo nel proprio progetto.
 
-All’atto pratico non è altro che **un file CSS e un JS** che, anche tramite una <a href="https://www.bootstrapcdn.com/" target="_blank">CDN</a>, potete inserire direttamente in una pagina HTML e iniziare ad usarne le componenti. Ma usare i **file sorgenti**, scritti in **SCSS**, è la vera potenza di Bootstrap.
+All’atto pratico non è altro che **un file CSS e un JS** che, anche tramite una [CDN](https://www.bootstrapcdn.com/), potete inserire direttamente in una pagina HTML e iniziare ad usarne le componenti. Ma usare i **file sorgenti**, scritti in **SCSS**, è la vera potenza di Bootstrap.
 
 Infatti, modificando solo qualche **variabile**, è possibile stravolgere completamente l’aspetto che hanno caratterizzato, e ormai uniformato, moltissimi siti.
 
@@ -28,11 +28,11 @@ Cosa serve:
 
 L’obiettivo è quello di creare un file CSS completo, eventualmente compresso e minificato, da poter banalmente includere nelle pagine HTML.
 
-Inoltre, se non si conosce un po’ di SCSS si perde gran parte del vantaggio di usare questa tecnologia: quindi magari <a href="https://sass-lang.com/guide" target="_blank">date un’occhio alla documentazione</a>.
+Inoltre, se non si conosce un po’ di SCSS si perde gran parte del vantaggio di usare questa tecnologia: quindi magari [date un’occhio alla documentazione](https://sass-lang.com/guide).
 
 ### I file principali
 
-Nella cartella del progetto create un file `index.html` con un markup di base. Potete prendere ad esempio quello dello <a href="https://getbootstrap.com/docs/4.5/getting-started/introduction/#starter-template" target="_blank">Starter Template</a> di Bootstrap stesso, rimuovendo i link ai CSS e JS delle CDN che ci sono dentro.
+Nella cartella del progetto create un file `index.html` con un markup di base. Potete prendere ad esempio quello dello [Starter Template](https://getbootstrap.com/docs/4.5/getting-started/introduction/#starter-template) di Bootstrap stesso, rimuovendo i link ai CSS e JS delle CDN che ci sono dentro.
 
 Creiamo quindi i file SCSS sorgente che poi dovrà essere compilato: lo mettiamo in `/dev/styles.scss` e per ora lasciamolo la…
 
@@ -42,13 +42,13 @@ Usiamo un gestore di pacchetti per scaricare tutte le librerie che ci servono: i
 
 Lanciate dal terminale `yarn add bootstrap@next`.
 
-In questo caso io uso l’ultima versione **beta** di Bootstrap e <a href="https://yarnpkg.com/" target="_blank">Yarn</a> come gestore pacchetti. Tutti questi pacchetti verranno scaricati nella cartella `node_modules` e aggiunti alla lista delle dipendenze nel file `package.json` nella root del progetto. Quando si inizializza un progetto con questo file, basta lanciare `yarn install` per installare tutti i pacchetti di cui il progetto necessita e quindi poter lanciare i comandi.
+In questo caso io uso l’ultima versione **beta** di Bootstrap e [Yarn](https://yarnpkg.com/) come gestore pacchetti. Tutti questi pacchetti verranno scaricati nella cartella `node_modules` e aggiunti alla lista delle dipendenze nel file `package.json` nella root del progetto. Quando si inizializza un progetto con questo file, basta lanciare `yarn install` per installare tutti i pacchetti di cui il progetto necessita e quindi poter lanciare i comandi.
 
-Per gestire la **compilazione** utilizzeremo <a href="https://gulpjs.com/docs/en/getting-started/quick-start">Gulp</a> e creeremo un **task** per compilare il file SCSS: `yarn add gulp-cli -g` se già non ce l’avete installato globalmente e `yarn add gulp` per aggiungerlo al progetto.
+Per gestire la **compilazione** utilizzeremo [Gulp](https://gulpjs.com/docs/en/getting-started/quick-start) e creeremo un **task** per compilare il file SCSS: `yarn add gulp-cli -g` se già non ce l’avete installato globalmente e `yarn add gulp` per aggiungerlo al progetto.
 
 ### Configurare Gulp per gestire i task
 
-Se non conoscete Gulp o le sue funzionalità potete vedere <a href="https://www.youtube.com?v=0CZuE5YwLO8&amp;ab_channel=AndreaRufo" target="_blank">un mio vecchio video dove ne parlo</a>?.
+Se non conoscete Gulp o le sue funzionalità potete vedere [un mio vecchio video dove ne parlo](https://www.youtube.com?v=0CZuE5YwLO8&amp;ab_channel=AndreaRufo)?.
 
 I **plugin** di Gulp necessari per la compilazione del file li aggiungiamo alle nostre dipendenze con `yarn add node-sass gulp-sass`. Se vogliamo anche la sourcemaps del file e minificare il tutto aggiungiamo anche `yarn add gulp-clean-css gulp-sourcemaps`.
 
@@ -156,4 +156,4 @@ Mentre nel `/dev/styles.scss` scriviamo:
 
 Finito! Compiliamo di nuovo il file con `gulp build`.
 
-Ora potete trovare il progetto completo <a href="https://github.com/andrearufo/bootstrap-tutorial" target="_blank">nella mia repository su GitHub</a>, inizializzarlo e usarlo. Che ne pensate?
+Ora potete trovare il progetto completo [nella mia repository su GitHub](https://github.com/andrearufo/bootstrap-tutorial), inizializzarlo e usarlo. Che ne pensate?
