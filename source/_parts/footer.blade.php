@@ -47,10 +47,17 @@
                         Tutti i marchi riportati appartengono ai legittimi proprietari; marchi di terzi, nomi di prodotti, nomi commerciali, nomi corporativi e società citati possono essere marchi di proprietà dei rispettivi titolari o marchi registrati d’altre società e vengono utilizzati a puro scopo esplicativo ed a beneficio del possessore, senza alcun fine di violazione dei diritti di Copyright vigenti.
                     </div>
 
-                    <div class="footer-item-content">
+                    <div class="footer-item-content mt-1">
                         <div class="text-muted">
-                            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0 2021</a>
-                            © Andrea Rufo
+                            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" class="text-decoration-none">
+                                <i class="fab fa-creative-commons"></i>
+                                <i class="fab fa-creative-commons-by"></i>
+                                <i class="fab fa-creative-commons-nc-eu"></i>
+                                <i class="fab fa-creative-commons-sa"></i>
+                                4.0 2021
+                            </a>
+                            <span class="px-1">©</span>
+                            Andrea Rufo
                         </div>
                     </div>
                 </div>
