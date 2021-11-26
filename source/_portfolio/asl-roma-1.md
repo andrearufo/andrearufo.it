@@ -6,7 +6,7 @@ anno: 2017
 cliente: Pixell.it
 link: http://www.aslroma1.it/
 label: www.aslroma1.it
-note: Progetto ereditato dai precedenti programmatori, sviluppato e manutenuto
+note: Progetto ereditato dai precedenti programmatori, sviluppato e manutenuto.
 skills: php, symfony
 minore: 1
 section: body
