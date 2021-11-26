@@ -40,7 +40,7 @@
                 <article>
                     <div class="row align-items-end gx-1 mb-3 mb-md-1">
                         <div class="col-12 col-md-auto">
-                            <a href="{{ $item->getPath() }}>">
+                            <a href="{{ $item->getPath() }}">
                                 {{ $item->title }}
                             </a>
                             <span class="text-muted">per {{ $item->cliente }}</span>
