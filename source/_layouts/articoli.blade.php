@@ -17,7 +17,7 @@
                 <div class="row justify-content-center">
                     <div class="col-xl-8 col-lg-9">
 
-                        <small class="text-muted">{{ date('j M Y', $page->created_at) }}</small>
+                        <small class="text-muted">{{ strftime('%d %b %y', $page->created_at) }}</small>
                         <h1>{{ $page->title }}</h1>
 
                     </div>

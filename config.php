@@ -1,4 +1,5 @@
 <?php
+setlocale(LC_TIME, 'it_IT');
 
 return [
     'production' => false,
