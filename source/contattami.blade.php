@@ -4,7 +4,7 @@
 
     <h1 class="d-none">Contattami</h1>
 
-    <div class="row row-cols-lg-3 gx-3 gy-5 text-center">
+    <div class="row row-cols-lg-3 gx-3 gy-5 text-center justify-content-center">
         @foreach ($page->contatti as $contatto)
             <div>
 

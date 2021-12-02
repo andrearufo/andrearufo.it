@@ -9,7 +9,7 @@
 
     @include('_parts.header')
 
-    <main class="py-3">
+    <main class="py-5">
         <div class="container">
 
             <section class="{{ $page->getFilename() }}">

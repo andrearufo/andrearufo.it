@@ -11,7 +11,8 @@ return [
         'linkedin' => 'https://www.linkedin.com/in/andrearufo/',
         'instagram' => 'https://www.instagram.com/andrearufo/',
         'github' => 'https://github.com/andrearufo',
-        'youtube' => 'https://www.youtube.com/c/andrearufo'
+        'youtube' => 'https://www.youtube.com/c/andrearufo',
+        'substack' => 'https://andrearufo.substack.com/'
     ],
     'menu' => require_once('config_menu.php'),
     'curriculum' => require_once('config_curriculum.php'),

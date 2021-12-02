@@ -55,4 +55,10 @@ return [
         'link' => 'https://www.instagram.com/andrearufo',
         'label' => 'instagram.com/andrearufo'
     ],
+    // [
+    //     'icona' => 'fab fa-substack',
+    //     'contatto' => 'Substack',
+    //     'link' => 'https://andrearufo.substack.com/',
+    //     'label' => 'andrearufo.substack.com'
+    // ],
 ];

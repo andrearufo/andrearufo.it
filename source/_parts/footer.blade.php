@@ -2,7 +2,7 @@
     <div class="container">
 
         <div class="row justify-content-between">
-            <div class="col-lg-4 col-xl-3">
+            <div class="col-lg-5 col-xl-4">
 
                 <div class="footer-item">
                     <div class="footer-item-title">
@@ -14,13 +14,8 @@
                             <li><a target="_blank" href="tel:+393386213493">+39 338 62 13 493</a></li>
                         </ul>
                     </div>
-                </div>
 
-            </div>
-            <div class="col-lg-4 col-xl-3">
-
-                <div class="footer-item">
-                    <div class="footer-item-title">
+                    <div class="footer-item-title mt-3">
                         Socials
                     </div>
                     <div class="footer-item-content">

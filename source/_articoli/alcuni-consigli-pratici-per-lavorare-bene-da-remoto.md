@@ -5,6 +5,7 @@ image: consigli-lavoro-remoto.jpeg
 created_at: 2017-02-05
 section: body
 ---
+
 ## In un suo recente video, il buon [Marco Montemagno](https://www.facebook.com/montemagno/), offre qualche spunto sul lavoro da remoto e cosa fare per farlo bene e farlo funzionare. Ecco i miei due centesimi. 
 
 Come il buon Monty, anche il sottoscritto  —  ormai dal lontano 2012  —  lavora per lo più da remoto. Anzi, ancora meglio: io lavoro __da casa__. Ovvero la mattina mi alzo, mi faccio la mia bella colazione con tutta calma. E nel giro di mezz’ora vado alla scrivania e inizio a lavorare. Non esco di casa; non prendo la macchina; non mi metto in giacca e cravatta. Tendenzialmente neanche mi pettino. Non tutti ci riescono (e magari approfondiremo). Ma ecco qualche consiglio che offre Monty.
