@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Sito web e portofolio di Andrea Rufo, full stack web developer. Programmazione di siti web e applicazioni. Specializzato in Larave, Vue, PWA, WordPress e webdesign.">
+
+<title>Quali e quanti strumenti dovrebbe usare un developer nel 2017</title>
+
+<link rel="canonical" href="https://www.andrearufo.it/articoli/2017/03/20/quali-e-quanti-strumenti-dovrebbe-usare-un-developer-nel-2017">
+<link rel="icon" type="image/svg+xml" href="https://www.andrearufo.it/assets/images/favicon.svg">
+<link rel="stylesheet" href="/assets/build/css/main.css?id=38e1f6bd06fbdaec4092">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/color-brewer.min.css" integrity="sha512-SJm3cAu//Nn6+cv90D0Ue8ArsnjDlszVGE3o/0JX55VOd9/KVbSGTegrZhyNK6ttKMeLbR14ezeGWyBUmF1Aww==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js" integrity="sha512-Pbb8o120v5/hN/a6LjF4N4Lxou+xYZ0QcVF8J6TWhBbHmctQWd8O6xTDmHpE/91OjPzCk4JRoiJsexHYg4SotQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>hljs.highlightAll();</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-4918423-11"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('set', 'linker', {"domains":["www.andrearufo.it"]} );
+    gtag('js', new Date());
+
+    gtag("set", "developer_id.dZTNiMT", true);
+    gtag('config', 'UA-4918423-11');
+</script>
+
+<!--
+
+    returns the path to the current page, relative to the site root
+    -> /articoli/2017/03/20/quali-e-quanti-strumenti-dovrebbe-usare-un-developer-nel-2017
+
+
+    returns the relative path (i.e. parent directories) of the current page, relative to the site root
+    -> 
+
+
+    returns the full URL to the item, if baseUrl was defined in config.php
+    -> https://www.andrearufo.it/articoli/2017/03/20/quali-e-quanti-strumenti-dovrebbe-usare-un-developer-nel-2017
+
+
+    returns the filename of the page, without extension (e.g. my-first-page)
+    -> quali-e-quanti-strumenti-dovrebbe-usare-un-developer-nel-2017
+
+
+    returns the file extension (e.g. md)
+    -> md
+
+
+    returns the last modified time of the file, as a Unix timestamp
+    -> 1637575925
+
+-->
+
+</head>
+<body>
+
+    <header class="sticky-top py-2 border-bottom">
+    <div class="container">
+
+        <div class="row align-items-center justify-content-between">
+            <div class="col-auto col-logo">
+
+                <a href="/">
+                    <i class="fak fa-ar fa-lg text-secondary"></i>
+                </a>
+
+            </div>
+            <div class="col-auto col-hamburger text-end d-lg-flex d-none">
+
+                <div id="desktopmenu">
+                    <ul class="menu">
+            <li class="menu-item">
+            <a href="https://www.andrearufo.it/">
+                Home
+            </a>
+        </li>
+            <li class="menu-item">
+            <a href="https://www.andrearufo.it/informazioni">
+                Informazioni
+            </a>
+        </li>
+            <li class="menu-item">
+            <a href="https://www.andrearufo.it/curriculum">
+                Curriculum
+            </a>
+        </li>
+            <li class="menu-item">
+            <a href="https://www.andrearufo.it/portfolio">
+                Portfolio
+            </a>
+        </li>
+            <li class="menu-item">
+            <a href="https://www.andrearufo.it/articoli">
+                Articoli
+            </a>
+        </li>
+            <li class="menu-item">
+            <a href="https://www.andrearufo.it/contattami">
+                Contattami
+            </a>
+        </li>
+    </ul>
+                </div>
+
+            </div>
+            <div class="col-auto col-hamburger text-end d-lg-none d-flex">
+
+                <button class="btn btn-link" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobilemenu" aria-controls="mobilemenu">
+                    <i class="fal fa-bars fa-lg"></i>
+                </button>
+
+            </div>
+        </div>
+
+    </div>
+</header>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="mobilemenu" aria-labelledby="mobilemenu">
+    <div class="offcanvas-header">
+
+        <h5 class="offcanvas-title">Menu</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+    </div>
+    <div class="offcanvas-body">
+
+        <ul class="menu">
+            <li class="menu-item">
+            <a href="https://www.andrearufo.it/">
+                Home
+            </a>
+        </li>
+            <li class="menu-item">
+            <a href="https://www.andrearufo.it/informazioni">
+                Informazioni
+            </a>
+        </li>
+            <li class="menu-item">
+            <a href="https://www.andrearufo.it/curriculum">
+                Curriculum
+            </a>
+        </li>
+            <li class="menu-item">
+            <a href="https://www.andrearufo.it/portfolio">
+                Portfolio
+            </a>
+        </li>
+            <li class="menu-item">
+            <a href="https://www.andrearufo.it/articoli">
+                Articoli
+            </a>
+        </li>
+            <li class="menu-item">
+            <a href="https://www.andrearufo.it/contattami">
+                Contattami
+            </a>
+        </li>
+    </ul>
+
+    </div>
+</div>
+
+    <main class="py-3">
+        <div class="container">
+
+            <section class="quali-e-quanti-strumenti-dovrebbe-usare-un-developer-nel-2017">
+
+                <div class="row justify-content-center">
+                    <div class="col-xl-8 col-lg-9">
+
+                        <small class="text-muted">20 Mar 17</small>
+                        <h1>Quali e quanti strumenti dovrebbe usare un developer nel 2017</h1>
+
+                    </div>
+                </div>
+
+                                    <div class="row justify-content-center">
+                        <div class="col-xl-10 col-lg-10">
+
+                            <div class="mb-5">
+                                <img src="/assets/images/articoli/strumenti-da-developer.jpeg" class="shadow rounded w-100" title="strumenti-da-developer.jpeg">
+                            </div>
+
+                        </div>
+                    </div>
+                
+                <div class="row justify-content-center">
+                    <div class="col-xl-8 col-lg-9">
+
+                        <h2>Negli ultimi anni sono cambiate tante cose… ma come sempre del resto! E così oggi mi ritrovo a usare tantissimi strumenti diversi per sviluppare i miei progetti. Alcuni più comodi di altri. Alcuni obbligati dal mercato e dal lavoro in team.</h2>
+
+<p>Certo, da quando i siti si facevano con le tabelle è passato un sacco di tempo… Ma non fatemi sentire vecchio: ho solo 30 anni e comunque pochi mesi sono ere geologiche tecnologicamente parlando.</p>
+
+<h3>Computer</h3>
+
+<p>Nessun consiglio in particolare. Penso che il <strong>Mac</strong> sia la scelta migliore. Ma ovviamente va bene Linux e, se siete masochisti, anche Windows. A voi…</p>
+
+<h3>Editor</h3>
+
+<p>È importante, perchè è lo strumento principale di lavoro. Ecco quali consiglio in ordine di importanza:</p>
+
+<ol>
+<li><a href="https://www.sublimetext.com/">Sublime Text</a></li>
+<li><a href="https://panic.com/coda/">Coda</a></li>
+<li><a href="https://atom.io/">Atom</a></li>
+<li><a href="http://brackets.io/">Brakets</a></li>
+</ol>
+
+<h3>Gestione server locali e hosts</h3>
+
+<p>Qua la cosa è più tecnica. Non saprei consigliarvi meglio perchè dipende molto dall’uso che ne fate.</p>
+
+<ol>
+<li><a href="https://www.mamp.info/en/">MAMP</a></li>
+<li><a href="https://www.vagrantup.com/">Vagrant</a></li>
+<li><a href="https://www.docker.com/">Docker</a></li>
+</ol>
+
+<h3>Linguaggio di programmazione</h3>
+
+<p>Ovviamente ogni linguaggio ha la sua peculiarità. Uno sviluppatore serio, secondo me, dovrebbe avere infarinatura di tutti questi linguaggi</p>
+
+<ul>
+<li>HTML</li>
+<li>CSS, <a href="http://lesscss.org/">Less</a>, <a href="http://sass-lang.com/">SASS</a></li>
+<li>PHP</li>
+<li>MySQL</li>
+<li>Javascript</li>
+</ul>
+
+<h3>Librerie e framework</h3>
+
+<p>Sarebbe da pazzi lavorare senza il supporto di una serie di framework ormai assolutamente indispensabili per ridurre i tempi di sviluppo ma, anche, per fare le cose fatte meglio.</p>
+
+<ul>
+<li><a href="https://laravel.com/">Laravel</a> (anche se non proprio alla portata di tutti i progetti)</li>
+<li><a href="https://it.wordpress.org/">Wordpress</a></li>
+<li><a href="https://www.slimframework.com/">Slim Framework</a></li>
+<li><a href="https://jquery.com/">jQuery</a> (anche se un po’ in discesa)</li>
+<li><a href="http://vuejs.org/">Vue.js</a></li>
+<li><a href="https://webpack.github.io/">Webpack</a> (e se usate Grunt o Gulp o Vue o altro è ora che iniziate a conoscere anche questo)</li>
+</ul>
+
+<h3>Software di gestione</h3>
+
+<ul>
+<li><a href="https://panic.com/transmit/">Transmit</a>: il miglior client SFTP/FTP per Mac</li>
+<li><a href="https://www.sourcetreeapp.com/">SourceTree</a>: per la gestione delle respository GIT</li>
+<li><a href="https://www.sequelpro.com/">Sequel Pro</a>: per gestire meglio le tabelle e i database MySQL</li>
+<li><a href="https://evernote.com/">Evernote</a></li>
+</ul>
+
+<h3>Altri strumenti di gestione</h3>
+
+<ul>
+<li><a href="https://www.npmjs.com/">NPM</a></li>
+<li><a href="https://getcomposer.org/">Composer</a></li>
+<li><a href="https://gruntjs.com/">Grunt</a> e <a href="http://gulpjs.com/">Gulp</a> (in favore di <a href="https://codekitapp.com/">Codekit</a> che ho adorato per tanto tempo ma che risultava impossibile da usare in ambito di lavoro in team)</li>
+<li>GIT e <a href="https://github.com/">GitHub</a> (fondamentale!)</li>
+</ul>
+
+<h3>Varie</h3>
+
+<p>Certo, forse non servono proprio per “lavorare” ma senza sarebbe molto peggio:</p>
+
+<ul>
+<li><a href="https://www.spotify.com/">Spotify</a> per ascoltare la tua musica preferita</li>
+<li><a href="http://meetfranz.com/">Franz</a> per avere tutte le piattaforme di messaggistica a portata di mano</li>
+<li><a href="https://www.iterm2.com/">iTerm</a> una super alternativa al comune terminale per Mac</li>
+<li><a href="https://fiplab.com/apps/copyclip-for-mac">CopyClip</a> per avere uno storico dei propri copia-incolla</li>
+<li><a href="http://tobiasahlin.com/blog/introducing-loremify/">Loremify</a> così puoi riempire velocemente con del testo segnaposto</li>
+<li><a href="https://justgetflux.com/">f.lux</a> per migliorare la luminosità dello schermo e riposare gli occhi</li>
+</ul>
+
+<hr />
+
+<p>Qualcuno avrà forse notato che non ho elencato degli <em>evergreen</em> come Photoshop o Illustrator… La verità è che oggi, per sviluppare web o app non sono più necessari. Ma magari ci torniamo un’altra volta. Quali sono i vostri strumenti preferiti? ho forse dimenticato qualcosa di fondamentale?</p>
+
+<p>Aspetto i vostri commenti.</p>
+
+                    </div>
+                </div>
+
+            </section>
+
+        </div>
+    </main>
+
+    <footer id="footer" class="py-3 border-top">
+    <div class="container">
+
+        <div class="row justify-content-between">
+            <div class="col-lg-5 col-xl-4">
+
+                <div class="footer-item">
+                    <div class="footer-item-title">
+                        Contatti
+                    </div>
+                    <div class="footer-item-content">
+                        <ul>
+                            <li><a target="_blank" href="mailto:a.rufo@axio.studio">a.rufo@axio.studio</a></li>
+                            <li><a target="_blank" href="tel:+393386213493">+39 338 62 13 493</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-item-title mt-3">
+                        Socials
+                    </div>
+                    <div class="footer-item-content">
+                        <ul>
+                                                            <li>
+                                    <a target="_blank" href="https://twitter.com/@andrearufo">twitter</a>
+                                </li>
+                                                            <li>
+                                    <a target="_blank" href="https://www.linkedin.com/in/andrearufo/">linkedin</a>
+                                </li>
+                                                            <li>
+                                    <a target="_blank" href="https://www.instagram.com/andrearufo/">instagram</a>
+                                </li>
+                                                            <li>
+                                    <a target="_blank" href="https://github.com/andrearufo">github</a>
+                                </li>
+                                                            <li>
+                                    <a target="_blank" href="https://www.youtube.com/c/andrearufo">youtube</a>
+                                </li>
+                                                            <li>
+                                    <a target="_blank" href="https://andrearufo.substack.com/">substack</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg text-lg-right">
+
+                <div class="footer-item">
+                    <div class="footer-item-content">
+                        <a href="https://www.iubenda.com/privacy-policy/867456" class="iubenda-black iubenda-embed" title="Privacy Policy ">Privacy Policy</a>
+                        <script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+                    </div>
+
+                    <div class="footer-item-content">
+                        Tutti i marchi riportati appartengono ai legittimi proprietari; marchi di terzi, nomi di prodotti, nomi commerciali, nomi corporativi e società citati possono essere marchi di proprietà dei rispettivi titolari o marchi registrati d’altre società e vengono utilizzati a puro scopo esplicativo ed a beneficio del possessore, senza alcun fine di violazione dei diritti di Copyright vigenti.
+                    </div>
+
+                    <div class="footer-item-content mt-1">
+                        <div class="text-muted">
+                            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" class="text-decoration-none">
+                                <i class="fab fa-creative-commons"></i>
+                                <i class="fab fa-creative-commons-by"></i>
+                                <i class="fab fa-creative-commons-nc-eu"></i>
+                                <i class="fab fa-creative-commons-sa"></i>
+                                4.0 2021
+                            </a>
+                            <span class="px-1">©</span>
+                            Andrea Rufo
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div id="cookie">
+        <div id="cookie-wrapper">
+            <div id="cookie-content">
+                <i class="fad fa-cookie-bite me-2"></i>
+                Questo sito <em>potrebbe</em> usare i cookie
+            </div>
+            <button id="cookie-ok">Ok</button>
+        </div>
+    </div>
+</footer>
+
+<script defer src="/assets/build/js/main.js?id=187894797f781e740678"></script>
+<script defer src="https://kit.fontawesome.com/7319c752cd.js"></script>
+
+</body>
+</html>
