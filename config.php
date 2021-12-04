@@ -32,4 +32,11 @@ return [
             // }
         ],
     ],
+    'formatdate' => function ($page, $date = null) {
+        if(!$date) return '';
+        // $datetime = strtotime($date);
+        // return $datetime;
+
+        return strftime('%d %b %y', $date);
+    }
 ];

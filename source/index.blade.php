@@ -72,7 +72,7 @@
                         </div>
                         <div class="col d-none d-md-flex"><div class="spacerline"></div></div>
                         <div class="col-12 col-md-auto text-md-end">
-                            {{ strftime('%d %b %y', $item->created_at) }}
+                            {{ $page->formatdate($item->created_at) }}
                         </div>
                     </div>
                 </article>

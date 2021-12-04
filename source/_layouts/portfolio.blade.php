@@ -32,7 +32,7 @@
                             @if($page->link)
                                 <div class="col-lg-auto">
 
-                                    <a href="{{ $page->link }}" class="btn btn-outline-primary">
+                                    <a href="{{ $page->link }}" class="btn btn-outline-primary" target="_blank">
                                         <i class="far fa-link me-2"></i>
                                         {{ $page->label }}
                                     </a>
