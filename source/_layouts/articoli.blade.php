@@ -17,7 +17,15 @@
                 <div class="row justify-content-center">
                     <div class="col-xl-8 col-lg-9">
 
-                        <small class="text-muted">{{ strftime('%d %b %y', $page->created_at) }}</small>
+                        <small class="text-muted">
+                            <i class="fal fa-calendar"></i>
+                            {{ strftime('%d %b %y', $page->created_at) }}
+                        </small>
+                        <small class="text-muted ms-2">
+                            <i class="fal fa-clock"></i>
+                            {{ $page->readingtime($page->content) }} di lettura
+                        </small>
+
                         <h1>{{ $page->title }}</h1>
 
                     </div>
@@ -43,6 +51,17 @@
                     </div>
                 </div>
 
+            </section>
+
+            <section class="mt-3">
+                <script
+                src="https://utteranc.es/client.js"
+                repo="andrearufo/andrearufo-comments"
+                issue-term="pathname"
+                theme="github-light"
+                crossorigin="anonymous"
+                async>
+                </script>
             </section>
 
         </div>
