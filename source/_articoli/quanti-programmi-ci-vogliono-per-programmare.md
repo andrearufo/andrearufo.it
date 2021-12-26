@@ -63,7 +63,7 @@ Fondamentale per il check e test di endpoint o nella costruzione di Rest API. Ha
 
 - Costo: *free*
 - Link: [https://www.postman.com/](https://www.postman.com/)
-- 
+
 ### Transmit
 
 Lo uso poco ma è un fantastico client sFTP che mi permette di avere un ottimo controllo - soprattutto - degli shared hosting che permettono l'accesso solo via FTP.
@@ -84,7 +84,7 @@ Lo detesto ma ce l'hanno tutti ed è necessario: immagino che non ci sia bisgono
 
 - Costo: *free*
 - Link: [https://www.whatsapp.com/?lang=it](https://www.whatsapp.com/?lang=it)
-- 
+
 ### Spotify
 
 Senza musica non posso vivere e non trovo altri servizi che siano così completi, anche nel consigliare e catalogare la musica, come Spotify. Pago volentieri un abbonamento che, diviso con la famiglia, pesa pochissimo ma offre un servizio superiore.
@@ -99,6 +99,8 @@ Aggiungiamo alla lista i *software* che non sono propriamente dei programmi con 
 - **php** notissimo linguaggio di programmazione + **composer** come gestore delle librerie
 - **node** potente piattaforma JavaScript + **npm** per la gestione dei pacchetti
 - [**brew**](https://brew.sh/) che è un gestore di pacchetti e software fondamentale per Mac
+- [**iStat Menu**](https://bjango.com/mac/istatmenus/) per avere sottocchio nella barra di stato un po' di metriche del computer
+- [**Monitor Control**](https://github.com/MonitorControl/MonitorControl) piccola utility per controllare la luminosità anche degli schermi esterni
 
 ***
 
