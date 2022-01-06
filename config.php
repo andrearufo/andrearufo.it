@@ -24,7 +24,7 @@ return [
             'author' => 'Andrea Rufo',
         ],
         'portfolio' => [
-            'path' => 'articoli/{filename}',
+            'path' => 'portofolio/{filename}',
             'sort' => ['minore', '-anno'],
             'author' => 'Andrea Rufo',
             // 'filter' => function ($item) {
@@ -34,27 +34,12 @@ return [
     ],
     'formatdate' => function ($page, $date = null) {
         if(!$date) return '';
-        // $datetime = strtotime($date);
-        // return $datetime;
-
         return strftime('%d %b %y', $date);
     },
     'readingtime' => function($content) {
 
         // assumed 265 words per minute
         $words_per_minute = 265;
-
-        // // initialize the content
-        // $content = [];
-
-        // // the article title
-        // $content[] = get_the_title();
-
-        // // the article content
-        // $content[] = get_the_content();
-
-        // // all the contents
-        // $content = implode(' ', $content);
 
         // count the words inside the content
         $words = str_word_count($content);
@@ -67,14 +52,6 @@ return [
 
         // formatting the time
         $ii = intdiv($time, 60);
-        // $ss = $time % 60;
-        // $duration = $ii.':'.$ss;
-        //
-        // // a most readable format
-        // $timetoread = human_readable_duration($duration);
-        //
-        // // Ex. '2 minutes, 52 seconds'
-        // return $timetoread;
 
         $ss = ($time%60 > 30) ? 1 : 0;
         $ii = $ii  + $ss;
