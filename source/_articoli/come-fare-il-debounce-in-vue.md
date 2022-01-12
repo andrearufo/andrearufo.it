@@ -14,7 +14,7 @@ Eseguire un **debounde** significa, in pratica, intercettare la chiamata potenzi
 
 Esempio pratico: una ricerca dinamica tramite un campo di testo.
 
-Ad ogni modifica della stringa di ricerca viene eseguita una chiamata verso un endpoint API che risponde con i risultati di ricerca. E allora per la ricerca `andrea` che richiama l'enpoint `cerca?s=andrea` succederà:
+Ad ogni modifica della stringa di ricerca viene eseguita una chiamata verso un endpoint API che risponde con i risultati di ricerca. E allora per la ricerca `andrea` che richiama l'endpoint `cerca?s=andrea` succederà:
 
 1. scrivo `a` e viene chiamato `cerca?s=a`
 2. scrivo `an` e viene chiamato `cerca?s=an`

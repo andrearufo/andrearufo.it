@@ -27,9 +27,6 @@ return [
             'path' => 'portofolio/{filename}',
             'sort' => ['minore', '-anno'],
             'author' => 'Andrea Rufo',
-            // 'filter' => function ($item) {
-            //     return !$item->minore;
-            // }
         ],
     ],
     'formatdate' => function ($page, $date = null) {

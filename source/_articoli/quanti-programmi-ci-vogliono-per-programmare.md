@@ -10,7 +10,7 @@ section: body
 
 Se infatti leggete i vecchi articoli potete notare che usavo e sceglievo diversamente alcuni programmi. Negli ultimi tempi, causa anche il cambio di tipologia di lavoro che svolgo e un riassetto generale, ho modificato moltissimo il mio set di attrezzi per la programmazione e lo sviluppo.
 
-Alcuni più per vizio di altri, alcuni per scelta strategica, altri perchè il contesto mi ha obbligato. Ve lo racconto...
+Alcuni più per vizio di altri, alcuni per scelta strategica, altri perché il contesto mi ha obbligato. Ve lo racconto...
 
 Partiamo dalla lista di quelli che sono piazzati fissi sulla mia dock del Mac.
 
@@ -45,14 +45,14 @@ Comodissimo gestore di repository GIT. Ci sono anche tantissime valide alternati
 
 ### Docker Desktop
 
-Altro tool comodo. Niente di particolare ma mi aiuta nella visualizzazione dei container Docker che girano per i progetti locali. Decisamente superfluo e probabilmente inutile ai più che non usano Docker per le loro instanze locali. Se non sapete cosa è Docker documentatevi però perchè è veramente potente.
+Altro tool comodo. Niente di particolare ma mi aiuta nella visualizzazione dei container Docker che girano per i progetti locali. Decisamente superfluo e probabilmente inutile ai più che non usano Docker per le loro istanze locali. Se non sapete cosa è Docker documentatevi però perché è veramente potente.
 
 - Costo: *free* (versione base)
 - Link: [https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop)
 
 ### Table Plus
 
-A parare mio il miglior client per la gestione dei database (in particolare MySQL) che ho mai provato. Non ho mai esigenze estreme e per lo più si tratta di semplice visualizzazione, ricerca e query e il suo lavoro lo fa benissimo. Tanto che uso la free trial che ha alcune limitazioni rispetto la versiona a pagamento ma che non ho mai avuto la fortissima necessità di prendere.
+A parare mio il miglior client per la gestione dei database (in particolare MySQL) che ho mai provato. Non ho mai esigenze estreme e per lo più si tratta di semplice visualizzazione, ricerca e query e il suo lavoro lo fa benissimo. Tanto che uso la free trial che ha alcune limitazioni rispetto la versione a pagamento ma che non ho mai avuto la fortissima necessità di prendere.
 
 - Costo: *free trial*
 - Link: [https://tableplus.com/](https://tableplus.com/)
@@ -80,7 +80,7 @@ Il mio instant messenger preferito che uso anche per la fantastica implementazio
 
 ### WhatsApp
 
-Lo detesto ma ce l'hanno tutti ed è necessario: immagino che non ci sia bisgono di dire altro.
+Lo detesto ma ce l'hanno tutti ed è necessario: immagino che non ci sia bisogno di dire altro.
 
 - Costo: *free*
 - Link: [https://www.whatsapp.com/?lang=it](https://www.whatsapp.com/?lang=it)

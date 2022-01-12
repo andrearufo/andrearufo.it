@@ -47,10 +47,7 @@ Al che lo script aggiunge anche una classe al bottone così da poterlo stilizzar
 
 Ecco un esempio:
 
-<p><iframe height="340" style="width: 100%;" scrolling="no" title="Pulsante di copia di un link" src="https://codepen.io/andrearufo/embed/KKwMKxe?height=327&amp;theme-id=default&amp;default-tab=js,result" frameborder="no" allowtransparency="true" allowfullscreen="true"><br />
-  See the Pen <a href='https://codepen.io/andrearufo/pen/KKwMKxe'>Pulsante di copia di un link</a> by Andrea Rufo<br />
-  (<a href='https://codepen.io/andrearufo'>@andrearufo</a>) on <a href='https://codepen.io'>CodePen</a>.<br />
-</iframe></p>
+<iframe height="340" style="width: 100%;" scrolling="no" title="Pulsante di copia di un link" src="https://codepen.io/andrearufo/embed/KKwMKxe?height=327&amp;theme-id=default&amp;default-tab=js,result" frameborder="no" allowtransparency="true" allowfullscreen="true"><br />See the Pen <a href='https://codepen.io/andrearufo/pen/KKwMKxe'>Pulsante di copia di un link</a> by Andrea Rufo<br />(<a href='https://codepen.io/andrearufo'>@andrearufo</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe>
 
 ## Come usarlo quindi in Wordpress? 
 

@@ -22,9 +22,9 @@ Dopo un po' di ricerca avevo optato per [11ty](https://www.11ty.dev/) che mi par
 
 Invece alla fine ho optato per [Jigsaw](https://jigsaw.tighten.co/) che è più vicino alla mia _confort zone_: ovvero PHP e Laravel. 
 
-Il tutto poi messo su GitHub e automatizzato con [Netlify](https://www.netlify.com/) che in questo momento (_kiitos!_) si preoccupat di "buildare" e "hostare" il sito.
+Il tutto poi messo su GitHub e automatizzato con [Netlify](https://www.netlify.com/) che in questo momento (_kiitos!_) si preoccupa di "buildare" e "hostare" il sito.
 
-È tutto molto semplicifcato, molto pulito anche dal punto di vista del codice. E sono contento così.
+È tutto molto semplificato, molto pulito anche dal punto di vista del codice. E sono contento così.
 
 Siamo a fine anno ormai, non so se riuscirò a scrivere qualche contenuto in più e se finalmente riuscirò a riprendere una "linea editoriale": sto pensando di tirare su una newsletter su [Substack](https://andrearufo.substack.com/) che forse mi permetterebbe di scrivere contenuti un po' più estemporanei... Non lo so ancora.
 
