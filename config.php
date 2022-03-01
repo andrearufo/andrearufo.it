@@ -1,4 +1,6 @@
 <?php
+use Carbon\Carbon;
+
 setlocale(LC_TIME, 'it_IT');
 
 return [
@@ -31,7 +33,8 @@ return [
     ],
     'formatdate' => function ($page, $date = null) {
         if(!$date) return '';
-        return strftime('%d %b %y', $date);
+        $formatter = Carbon::createFromTimestamp($date);
+        echo $formatter->locale('it')->isoFormat('DD MMM YY');
     },
     'readingtime' => function($content) {
 
@@ -45,7 +48,7 @@ return [
         $time = $words / $words_per_minute * 60;
 
         // add the time for 'read' the featured image
-        $time = $time + 12;
+        $time = round($time) + 12;
 
         // formatting the time
         $ii = intdiv($time, 60);

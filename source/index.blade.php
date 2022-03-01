@@ -30,9 +30,20 @@
 
     <hr>
 
-    <h3>
-        <a href="{{ $page->baseUrl }}/portfolio">Portfolio</a>
-    </h3>
+    <div class="row align-items-center">
+        <div class="col-lg">
+
+            <h3 class="mt-3 mb-lg-3">Portfolio</h3>
+
+        </div>
+        <div class="col-lg text-lg-end">
+
+            <div class="my-lg-3">
+                <a href="{{ $page->baseUrl }}/portfolio">Tutti i lavori</a>
+            </div>
+
+        </div>
+    </div>
 
     <ul class="list-unstyled mb-3">
         @foreach ($portfolio->take(6) as $item)
@@ -58,9 +69,20 @@
 
     <hr>
 
-    <h3>
-        <a href="{{ $page->baseUrl }}/articoli">Articoli</a>
-    </h3>
+    <div class="row align-items-center">
+        <div class="col-lg">
+
+            <h3 class="mt-3 mb-lg-3">Articoli</h3>
+
+        </div>
+        <div class="col-lg text-lg-end">
+
+            <div class="my-lg-3">
+                <a href="{{ $page->baseUrl }}/articoli">Tutti gli articoli</a>
+            </div>
+
+        </div>
+    </div>
 
     <ul class="list-unstyled mb-3">
         @foreach ($articoli->take(6) as $item)

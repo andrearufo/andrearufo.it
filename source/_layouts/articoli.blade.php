@@ -19,7 +19,7 @@
 
                         <small class="text-muted">
                             <i class="fal fa-calendar"></i>
-                            {{ strftime('%d %b %y', $page->created_at) }}
+                            {{ $page->formatdate($page->created_at) }}
                         </small>
                         <small class="text-muted ms-2">
                             <i class="fal fa-clock"></i>
