@@ -6,9 +6,9 @@ anno: 2016
 cliente: Mandarino Adv
 link: http://www.sandrogiordanoinextremis.it/
 label: www.sandrogiordanoinextremis.it
-note: 
-skills: 
-minore: 
+# note: 
+# skills: 
+minore: 0
 section: body
 ---
 

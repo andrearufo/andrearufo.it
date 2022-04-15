@@ -6,7 +6,7 @@ anno: 2019
 cliente: Mandarino Adv
 link: http://www.davidemarazza.it/
 label: www.davidemarazza.it
-note: 
+# note: 
 skills: wordpress, landing page
 minore: 1
 section: body

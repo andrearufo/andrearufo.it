@@ -6,8 +6,8 @@ anno: 2015
 cliente: Mandarino Adv
 link: http://www.benvenutiarredamenti.it/
 label: www.benvenutiarredamenti.it
-note: 
-skills: 
+# note: 
+# skills: 
 minore: 1
 section: body
 ---

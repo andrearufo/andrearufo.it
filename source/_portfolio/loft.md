@@ -6,9 +6,9 @@ anno: 2017
 cliente: Orange Drop Design con Mosaico Lab
 link: https://www.tvloft.it/
 label: www.tvloft.it
-note: 
+# note: 
 skills: php, laravel
-minore: 
+minore: 0
 section: body
 ---
 

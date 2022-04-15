@@ -6,8 +6,8 @@ anno: 2016
 cliente: Mandarino Adv
 link: http://www.morganti.it/
 label: www.morganti.it
-note: 
-skills: 
+# note: 
+# skills: 
 minore: 1
 section: body
 ---

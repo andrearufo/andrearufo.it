@@ -6,9 +6,9 @@ anno: 2014
 cliente: Orange Drop Design con Direct2brain
 link: http://www.d2b.it/portfolio/expo-2015-smart-city/
 label: www.d2b.it
-note: 
-skills: 
-minore: 
+# note: 
+# skills: 
+minore: 0
 section: body
 ---
 

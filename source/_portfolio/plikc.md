@@ -6,7 +6,7 @@ anno: 2019
 cliente: Mandarino Adv
 link: https://www.plikc.com/
 label: www.plikc.com
-note: 
+# note: 
 skills: php, wordpress, design, jquery
 minore: 1
 section: body

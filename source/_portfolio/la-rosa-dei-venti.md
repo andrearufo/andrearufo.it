@@ -6,9 +6,9 @@ anno: 2016
 cliente: Mandarino Adv
 link: http://www.larosadeiventisabaudia.it/
 label: www.larosadeiventisabaudia.it
-note: 
+# note: 
 skills: javascript, landing page
-minore: 
+minore: 0
 section: body
 ---
 

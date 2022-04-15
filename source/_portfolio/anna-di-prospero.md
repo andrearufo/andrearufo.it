@@ -6,9 +6,9 @@ anno: 2018
 cliente: Orange Drop Design
 link: https://www.annadiprospero.com/
 label: www.annadiprospero.com
-note: 
-skills: 
-minore: 
+# note: 
+# skills: 
+minore: 0
 section: body
 ---
 

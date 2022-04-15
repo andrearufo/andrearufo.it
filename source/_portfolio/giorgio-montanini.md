@@ -6,9 +6,9 @@ anno: 2016
 cliente: Orange Drop Design
 link: http://www.giorgiomontanini.it/
 label: www.giorgiomontanini.it
-note: 
+# note: 
 skills: design, landing page
-minore: 
+minore: 0
 section: body
 ---
 

@@ -6,9 +6,9 @@ anno: 2018
 cliente: Orange Drop Design con Chapeaux.it
 link: http://www.giravolte.it/
 label: www.giravolte.it
-note: 
-skills: 
-minore: 
+# note: 
+# skills: 
+minore: 0
 section: body
 ---
 

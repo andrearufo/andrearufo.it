@@ -39,7 +39,7 @@
         <div class="col-lg text-lg-end">
 
             <div class="my-lg-3">
-                <a href="{{ $page->baseUrl }}/portfolio">Tutti i lavori</a>
+                <a href="{{ $page->baseUrl }}/portfolio">Tutti i lavori --> </a>
             </div>
 
         </div>

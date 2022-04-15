@@ -6,7 +6,7 @@ anno: 2019
 cliente: Orange Drop Design
 link: http://www.nazionefutura.it/
 label: www.nazionefutura.it
-note: 
+# note: 
 skills: wordpress
 minore: 1
 section: body

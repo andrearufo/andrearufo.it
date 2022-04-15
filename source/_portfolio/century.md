@@ -6,9 +6,9 @@ anno: 2019
 cliente: Mandarino Adv
 link: https://www.century-italia.it/
 label: www.century-italia.it
-note: 
+# note: 
 skills: php, wordpress, javascript, vue, mysql
-minore: 
+minore: 0
 section: body
 ---
 

@@ -6,9 +6,9 @@ anno: 2021
 cliente: Axio Studio
 link: https://axio.studio/
 label: axio.studio
-note: 
+# note: 
 skills: wordpress, design
-minore: 
+minore: 0
 section: body
 ---
 

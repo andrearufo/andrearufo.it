@@ -6,8 +6,8 @@ anno: 2017
 cliente: Pixell.it
 link: http://www.aiscatservizi.com/
 label: www.aiscatservizi.com
-note: 
-skills: 
+# note:
+# skills:
 minore: 1
 section: body
 ---

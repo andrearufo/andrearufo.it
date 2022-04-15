@@ -6,9 +6,9 @@ anno: 2020
 cliente: Axio Studio con I Am A Bean
 link: http://prexperience.it/
 label: prexperience.it
-note: 
+# note: 
 skills: php, wordpress, vue, design, user experience
-minore: 
+minore: 0
 section: body
 ---
 

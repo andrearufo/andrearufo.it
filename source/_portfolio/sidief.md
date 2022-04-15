@@ -7,7 +7,7 @@ cliente: Pixell.it
 link: http://www.sidief.it/
 label: www.sidief.it
 note: Progetto ereditato, sviluppato e manutenuto
-skills: 
+# skills: 
 minore: 1
 section: body
 ---

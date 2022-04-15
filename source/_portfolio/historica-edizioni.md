@@ -6,8 +6,8 @@ anno: 2014
 cliente: Orange Drop Design
 link: http://www.historicaedizioni.com/
 label: www.historicaedizioni.com
-note: 
-skills: 
+# note: 
+# skills: 
 minore: 1
 section: body
 ---

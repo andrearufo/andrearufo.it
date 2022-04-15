@@ -7,8 +7,8 @@ cliente: Orange Drop Design con White, red & green
 link: http://www.proraso.com/proraso-post/
 label: www.proraso.com/proraso-post
 note: Il lavoro iniziale si chiamava Lezioni di Stile ed era in collaborazione con uno spinoff di WRG di nome Alquimia WRG
-skills: 
-minore: 
+# skills: 
+minore: 0
 section: body
 ---
 

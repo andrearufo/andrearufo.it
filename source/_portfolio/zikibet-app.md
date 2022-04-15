@@ -6,9 +6,9 @@ anno: 2021
 cliente: Axio Studio
 link: https://www.zikibet.app/
 label: www.zikibet.app
-note: 
+# note: 
 skills: php, laravel, user experience
-minore: 
+minore: 0
 section: body
 ---
 

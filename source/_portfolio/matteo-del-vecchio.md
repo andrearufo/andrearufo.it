@@ -6,8 +6,8 @@ anno: 2016
 cliente: Orange Drop Design
 link: http://www.matteodelvecchio.com/
 label: www.matteodelvecchio.com
-note: 
-skills: 
+# note: 
+# skills: 
 minore: 1
 section: body
 ---

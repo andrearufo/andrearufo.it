@@ -6,9 +6,9 @@ anno: 2018
 cliente: Mandarino Adv
 link: http://www.vinisantommaso.it/
 label: www.vinisantommaso.it
-note: 
-skills: 
-minore: 
+# note: 
+# skills: 
+minore: 0
 section: body
 ---
 

@@ -6,9 +6,9 @@ anno: 2019
 cliente: Mandarino Adv
 link: http://www.elform.it/
 label: www.elform.it
-note: 
+# note: 
 skills: wordpress, design, woocommerce, user experience
-minore: 
+minore: 0
 section: body
 ---
 

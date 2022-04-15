@@ -6,9 +6,9 @@ anno: 2020
 cliente: Orange Drop Design con Unit Group
 link: https://timeplus.inunit.it/
 label: timeplus.inunit.it
-note: 
+# note: 
 skills: php, laravel, mysql, design, user experience
-minore: 
+minore: 0
 section: body
 ---
 

@@ -7,8 +7,8 @@ cliente: Axed Group
 link: https://vimeo.com/36228847
 label: Video Keynote
 note: Purtroppo, a seguire, i tempi si allungarono e poco prima della fase di realizzazione il progetto non fu portato a compimento per questioni di tempo.
-skills: 
-minore: 
+# skills: 
+minore: 0
 section: body
 ---
 
