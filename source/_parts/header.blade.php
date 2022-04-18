@@ -1,11 +1,11 @@
-<header class="sticky-top py-2 border-bottom">
+<header class="sticky-top py-1 border-bottom">
     <div class="container">
 
         <div class="row align-items-center justify-content-between">
             <div class="col-auto col-logo">
 
                 <a href="/">
-                    <i class="fak fa-ar fa-lg text-secondary"></i>
+                    <i class="fak fa-ar fa-lg"></i>
                 </a>
 
             </div>

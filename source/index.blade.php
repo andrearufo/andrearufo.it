@@ -39,7 +39,10 @@
         <div class="col-lg text-lg-end">
 
             <div class="my-lg-3">
-                <a href="{{ $page->baseUrl }}/portfolio">Tutti i lavori --> </a>
+                <a href="{{ $page->baseUrl }}/portfolio">
+                    Tutti i lavori
+                    <i class="fa-light fa-arrow-up-right ms-2"></i>
+                </a>
             </div>
 
         </div>
@@ -78,7 +81,10 @@
         <div class="col-lg text-lg-end">
 
             <div class="my-lg-3">
-                <a href="{{ $page->baseUrl }}/articoli">Tutti gli articoli</a>
+                <a href="{{ $page->baseUrl }}/articoli">
+                    Tutti gli articoli
+                    <i class="fa-light fa-arrow-up-right ms-2"></i>
+                </a>
             </div>
 
         </div>

@@ -14,33 +14,24 @@
 
             <section class="{{ $page->getFilename() }}">
 
-                <div class="row justify-content-center">
+                <div class="row justify-content-center mb-5">
                     <div class="col-xl-8 col-lg-9">
 
-                        <div class="row justify-content-between align-items-center">
-                            <div class="col-lg-auto">
-
-                                <small class="text-muted">
-                                    {{ $page->anno }}
-                                    @if($page->cliente)
-                                        ― per {{ $page->cliente }}
-                                    @endif
-                                </small>
-                                <h1>{{ $page->title }}</h1>
-
-                            </div>
-                            @if($page->link)
-                                <div class="col-lg-auto">
-
-                                    <a href="{{ $page->link }}" class="btn btn-outline-primary" target="_blank">
-                                        <i class="far fa-link me-2"></i>
-                                        {{ $page->label }}
-                                    </a>
-
-                                </div>
+                        <small class="text-muted">
+                            {{ $page->anno }}
+                            @if($page->cliente)
+                                ― per {{ $page->cliente }}
                             @endif
-                        </div>
+                        </small>
 
+                        <h1>{{ $page->title }}</h1>
+
+                        @if($page->link)
+                            <a href="{{ $page->link }}" target="_blank">
+                                {{ $page->label }}
+                                <i class="fa-light fa-arrow-up-right ms-2"></i>
+                            </a>
+                        @endif
 
                     </div>
                 </div>
