@@ -6,6 +6,7 @@
 
                 <a href="/">
                     <i class="fak fa-ar fa-lg"></i>
+                    <span class="sr-only">Andrea Rufo</span>
                 </a>
 
             </div>
@@ -18,8 +19,9 @@
             </div>
             <div class="col-auto col-hamburger text-end d-lg-none d-flex">
 
-                <button class="btn btn-link" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobilemenu" aria-controls="mobilemenu">
+                <button class="btn btn-link" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobilemenu" aria-controls="mobilemenu" aria-label="Open mobile menu">
                     <i class="fal fa-bars fa-lg"></i>
+                    <span class="sr-only">Menu</span>
                 </button>
 
             </div>

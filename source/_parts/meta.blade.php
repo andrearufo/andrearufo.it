@@ -6,7 +6,7 @@
 
 <link rel="canonical" href="{{ $page->getUrl() }}">
 <link rel="icon" type="image/svg+xml" href="{{ $page->baseUrl }}/assets/images/favicon.svg">
-<link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
+<link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}" media="screen">
 
 @if( $page->production )
     <!-- Global site tag (gtag.js) - Google Analytics -->
