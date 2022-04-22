@@ -1,8 +1,13 @@
+@php
+    $page->title = 'Ciao!';
+    $page->description = 'Sito web e portofolio di Andrea Rufo, full stack web developer. Programmazione di siti web e applicazioni. Specializzato in Larave, Vue, PWA, WordPress e webdesign.';
+@endphp
+
 @extends('_layouts.main')
 
 @section('body')
 
-<h1>Salve!</h1>
+<h1>{{ $page->title }}</h1>
 <h2>Io sono Andrea Rufo e sono uno sviluppatore.</h2>
 
 <p>

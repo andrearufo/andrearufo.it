@@ -1,8 +1,13 @@
+@php
+    $page->title = 'Articoli';
+    $page->description = 'Una lista di articoli tecnici di approfondimento su questioni riguardo il web, lo sviluppo, il design e la tecnologia.';
+@endphp
+
 @extends('_layouts.main')
 
 @section('body')
 
-    <h1>Articoli</h1>
+    <h1>{{ $page->title }}</h1>
     <h2>Articoli di approfondimento e informazione</h2>
 
     <p>Ecco una lista di {{ $articoli->count() }} articoli che ho scritto negli ultimi anni.</p>

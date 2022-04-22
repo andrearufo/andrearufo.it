@@ -1,8 +1,13 @@
+@php
+    $page->title = 'Contattami';
+    $page->description = 'Come contattarmi per informazioni o altro.';
+@endphp
+
 @extends('_layouts.main')
 
 @section('body')
 
-    <h1 class="d-none">Contattami</h1>
+    <h1 class="d-none">{{ $page->title }}</h1>
 
     <div class="row row-cols-lg-3 gx-3 gy-5 text-center justify-content-center">
         @foreach ($page->contatti as $contatto)

@@ -1,8 +1,13 @@
+@php
+    $page->title = 'Informazioni';
+    $page->description = 'Alcune informazioni su di me e sul mio lavoro da sviluppatore.';
+@endphp
+
 @extends('_layouts.main')
 
 @section('body')
 
-    <h1>Informazioni</h1>
+    <h1>{{ $page->title }}</h1>
 
     <h2>Il mio lavoro è analizzare, progettare e programmare siti e applicazioni.</h2>
     <p>

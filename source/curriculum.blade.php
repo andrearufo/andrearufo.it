@@ -1,8 +1,13 @@
+@php
+    $page->title = 'Curriculum';
+    $page->description = 'Le mie esperienze lavorative più interessanti da consulente per lo sviluppo di suoluzioni per il web.';
+@endphp
+
 @extends('_layouts.main')
 
 @section('body')
 
-    <h1>Curriculum</h1>
+    <h1>{{ $page->title }}</h1>
 
     @foreach ($page->curriculum as $item)
 

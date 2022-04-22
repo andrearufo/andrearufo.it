@@ -6,8 +6,8 @@ setlocale(LC_TIME, 'it_IT');
 return [
     'production' => false,
     'baseUrl' => 'http://localhost:3000',
-    'title' => 'Andrea Rufo, freelance full stack web developer personal portfolio',
-    'description' => 'Sito web e portofolio di Andrea Rufo, full stack web developer. Programmazione di siti web e applicazioni. Specializzato in Larave, Vue, PWA, WordPress e webdesign.',
+    'baseTitle' => 'Andrea Rufo, freelance full stack web developer personal portfolio',
+    'description' => '',
     'socials' => [
         'twitter' => 'https://twitter.com/@andrearufo',
         'linkedin' => 'https://www.linkedin.com/in/andrearufo/',
