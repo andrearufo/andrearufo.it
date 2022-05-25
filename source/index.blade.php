@@ -31,6 +31,8 @@
     e offro servizi di progettazione, programmazione e consulenza di alto livello.
 </p>
 
+@include('_parts.spotify')
+
 <section id="home-portfolio" class="mt-5">
 
     <hr>

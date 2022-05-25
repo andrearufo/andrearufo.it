@@ -1,8 +1,8 @@
-<header class="sticky-top py-1 border-bottom">
+<header class="sticky-top border-bottom">
     <div class="container">
 
         <div class="row align-items-center justify-content-between">
-            <div class="col-auto col-logo">
+            <div class="col-6 col-lg-auto col-logo">
 
                 <a href="/">
                     <i class="fak fa-ar fa-lg"></i>
@@ -10,7 +10,7 @@
                 </a>
 
             </div>
-            <div class="col-auto col-hamburger text-end d-lg-flex d-none">
+            <div class="col-6 col-lg-8 col-menu text-end d-lg-block d-none">
 
                 <div id="desktopmenu">
                     @include('_parts.menu')

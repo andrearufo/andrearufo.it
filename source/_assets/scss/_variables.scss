@@ -67,8 +67,8 @@
 // // scss-docs-end colors-map
 
 // // scss-docs-start theme-color-variables
-$primary: black; // #3fb0ac;
-$secondary: #4682B4; // #3fb0ac;
+$primary: #2f3542; // #3fb0ac;
+// $secondary: #4682B4; // #3fb0ac;
 // $success:       $green !default;
 // $info:          $cyan !default;
 // $warning:       $yellow !default;
@@ -373,7 +373,7 @@ $secondary: #4682B4; // #3fb0ac;
 // // You can add more entries to the $spacers map, should you need more variation.
 
 // // scss-docs-start spacer-variables-maps
-$spacer: 4rem;
+$spacer: 2rem;
 // $spacers: (
 //   0: 0,
 //   1: $spacer * .25,
@@ -625,7 +625,7 @@ $headings-margin-bottom: $spacer;
 // $headings-font-style:         null !default;
 $headings-font-weight: 600;
 $headings-line-height: $line-height-base;
-// $headings-color:              null !default;
+$headings-color: $primary;
 // // scss-docs-end headings-variables
 
 // // scss-docs-start display-headings

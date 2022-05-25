@@ -29,11 +29,22 @@ header{
     font-weight: 500;
 
     ul.menu{
-        @extend .list-inline;
-        margin-bottom: 0;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        width: 100%;
 
-        li.menu-item{
-            @extend .list-inline-item;
+        @extend .d-flex ;
+        @extend .flex-row;
+        @extend .justify-content-between;
+
+        li {
+            display: flex;
+
+            a {
+                display: block;
+                padding: .6rem .6rem;
+            }
         }
     }
 }
@@ -41,21 +52,25 @@ header{
 #mobilemenu{
     ul.menu{
         @extend .list-unstyled;
+        margin: 0;
+        padding: 0;
     }
 }
 
 #desktopmenu,
 #mobilemenu{
-    li.menu-item{
-        a{
-            text-decoration: none;
-        }
-
-        &.current-menu-item{
-            font-weight: bold;
-
+    ul.menu{
+        li.menu-item{
             a{
-                text-decoration: underline;
+                text-decoration: none;
+            }
+
+            &.current-menu-item{
+                a{
+                    font-weight: bold;
+                    color: $text-muted;
+                    border-bottom: 1px solid $text-muted;
+                }
             }
         }
     }

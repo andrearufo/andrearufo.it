@@ -1,6 +1,7 @@
 <?php
-use Carbon\Carbon;
 
+use Carbon\Carbon;
+use Illuminate\Support\Str;
 setlocale(LC_TIME, 'it_IT');
 
 return [
@@ -26,11 +27,19 @@ return [
             'author' => 'Andrea Rufo',
         ],
         'portfolio' => [
-            'path' => 'portofolio/{filename}',
+            'path' => 'portfolio/{filename}',
             'sort' => ['minore', '-anno'],
             'author' => 'Andrea Rufo',
         ],
     ],
+    'selected' => function ($page, $section) {
+        if( $section != '/' && Str::contains($page->getPath(), $section) )
+            echo 'current-menu-item';
+        elseif($section == '/' && $page->getPath() == '' )
+            echo 'current-menu-item';
+        else
+            echo 'not-current-menu-item';
+    },
     'formatdate' => function ($page, $date = null) {
         if(!$date) return '';
         $formatter = Carbon::createFromTimestamp($date);

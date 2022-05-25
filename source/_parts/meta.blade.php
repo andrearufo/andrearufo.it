@@ -9,6 +9,9 @@
 <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}" media="screen">
 
 @if( $page->production )
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.14/vue.min.js" integrity="sha512-XdUZ5nrNkVySQBnnM5vzDqHai823Spoq1W3pJoQwomQja+o4Nw0Ew1ppxo5bhF2vMug6sfibhKWcNJsG8Vj9tg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-4918423-11"></script>
     <script>
@@ -20,6 +23,11 @@
         gtag("set", "developer_id.dZTNiMT", true);
         gtag('config', 'UA-4918423-11');
     </script>
+
+@else
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.14/vue.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 @endif
 
 {{--
