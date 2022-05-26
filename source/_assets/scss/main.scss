@@ -25,8 +25,8 @@ header{
 
 #desktopmenu{
     text-transform: uppercase;
-    font-size: $font-size-sm;
-    font-weight: 500;
+    // font-weight: 400;
+    // font-size: $font-size-sm;
 
     ul.menu{
         margin: 0;
@@ -43,7 +43,7 @@ header{
 
             a {
                 display: block;
-                padding: .6rem .6rem;
+                padding: 1.4rem .8rem;
             }
         }
     }
@@ -57,6 +57,29 @@ header{
     }
 }
 
+#desktopmenu{
+    ul.menu{
+        li.menu-item{
+            a{
+                border: 0;
+
+                // &:hover{
+                //     color: $primary;
+                //     border-bottom: 3px solid $primary;
+                // }
+            }
+
+            &.current-menu-item{
+                a{
+                    font-weight: bold;
+                    color: $body-color;
+                    border-color: $body-color;
+                }
+            }
+        }
+    }
+}
+
 #desktopmenu,
 #mobilemenu{
     ul.menu{
@@ -64,11 +87,14 @@ header{
             a{
                 text-decoration: none;
                 border: 0;
+                display: block;
             }
 
             &.current-menu-item{
                 a{
                     font-weight: bold;
+                    color: $body-color;
+                    border-color: $body-color;
                 }
             }
         }
@@ -84,8 +110,9 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1{
 }
 
 h1{
-    font-weight: 100;
-    line-height: 1.4;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
     margin-top: 0;
 }
 
@@ -115,12 +142,6 @@ footer{
                 }
             }
         }
-    }
-}
-
-p{
-    code{
-        font-size: $font-size-base;
     }
 }
 

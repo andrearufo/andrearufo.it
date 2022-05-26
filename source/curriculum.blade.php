@@ -20,10 +20,10 @@
                 </div>
                 <div class="col-12 col-lg">
 
-                    <small class="text-muted">
+                    <small class="text-muted d-block">
                         {{ $item['periodo'] }}
                     </small>
-                    <h6 class="mt-0">
+                    <h3 class="mt-0">
                         {{ $item['posizione'] }}
                         @
                         <strong>
@@ -33,7 +33,7 @@
                         </strong>
                         ―
                         {{ $item['luogo'] }}
-                    </h6>
+                    </h3>
 
                     <div>{{ $item['content'] }}</div>
 

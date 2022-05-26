@@ -10,7 +10,7 @@
 
 <link rel="canonical" href="https://www.andrearufo.it/">
 <link rel="icon" type="image/svg+xml" href="https://www.andrearufo.it/assets/images/favicon.svg">
-<link rel="stylesheet" href="/assets/build/css/main.css?id=464f8fdac9233de6471d93847259d3c7" media="screen">
+<link rel="stylesheet" href="/assets/build/css/main.css?id=5a2d4fed6ae44d8985cf5ea8eca0357f" media="screen">
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.14/vue.min.js" integrity="sha512-XdUZ5nrNkVySQBnnM5vzDqHai823Spoq1W3pJoQwomQja+o4Nw0Ew1ppxo5bhF2vMug6sfibhKWcNJsG8Vj9tg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -173,43 +173,7 @@
     e offro servizi di progettazione, programmazione e consulenza di alto livello.
 </p>
 
-<section id="home-spotify" class="mt-5">
-    <hr>
 
-    <ul class="list-inline mb-0 mt-5">
-        <tempalte v-if="play">
-
-            <li class="list-inline-item">
-                <i class="fa-brands fa-spotify" style="color: #1DB954"></i>
-            </li>
-            <li class="list-inline-item fw-bold">
-                {{ play.artist }}
-            </li>
-            <li class="list-inline-item">
-                {{ play.title }}
-            </li>
-            <li class="list-inline-item text-muted">
-                ({{ play.year }})
-            </li>
-            <li class="list-inline-item">
-                <a v-bind:href="play.link" target="_blank">
-                    <i class="fa-light fa-arrow-up-right"></i>
-                </a>
-            </li>
-
-        </tempalte>
-        <template v-else>
-
-            <li class="list-inline-item">
-                <i class="fa-brands fa-spotify text-muted"></i>
-            </li>
-            <li class="list-inline-item fst-italic">
-                Niente in riproduzione per ora...
-            </li>
-
-        </template>
-    </ul>
-</section>
 
 <section id="home-portfolio" class="mt-5">
 
