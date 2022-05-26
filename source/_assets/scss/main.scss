@@ -63,13 +63,12 @@ header{
         li.menu-item{
             a{
                 text-decoration: none;
+                border: 0;
             }
 
             &.current-menu-item{
                 a{
                     font-weight: bold;
-                    color: $text-muted;
-                    border-bottom: 1px solid $text-muted;
                 }
             }
         }
@@ -79,12 +78,6 @@ header{
 img {
     @extend .img-fluid;
 }
-
-// .page, #blog{
-//     h1{
-//         display: none;
-//     }
-// }
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1{
     margin-top: $headings-margin-bottom;
