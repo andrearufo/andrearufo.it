@@ -12,9 +12,9 @@ minore: 0
 section: body
 ---
 
-Il sito di Elleci è nato dalla un lungo studio e lavoro di brand image e progettazione della comunicazione online.
+Il sito di **Elleci** è nato dalla un lungo studio e lavoro di brand image e progettazione della comunicazione online.
 
-Basato su Wordpress MU, il sito Elleci utilizza un tema molto complesso che viene applicato sui vari siti nazionali ed internazionali, customizzandolo e rendendolo adatto alle specifiche esigenze locali.
+Basato su **Wordpress MU**, il sito Elleci utilizza un tema molto complesso che viene applicato sui vari siti nazionali ed internazionali, customizzandolo e rendendolo adatto alle specifiche esigenze locali.
 
 La grandissima area del catalogo prodotti attinge le informazioni da un sistema esterno dedicato al B2B e viene perfettamente integrato all'interno del sito in un'ottica più consumer, con filtraggi, caratteristiche ed immagini.
 

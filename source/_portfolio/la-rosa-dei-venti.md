@@ -8,7 +8,7 @@ link: http://www.larosadeiventisabaudia.it/
 label: www.larosadeiventisabaudia.it
 # note: 
 skills: javascript, landing page
-minore: 0
+minore: 1
 section: body
 ---
 

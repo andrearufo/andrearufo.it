@@ -12,7 +12,7 @@ minore: 0
 section: body
 ---
 
-Sono venuto a contatto con Giorgio tramite la TV e il mio amore per la stand-up comedy (un po' poco considerata in Italia). Così gli scrivo per complimentarmi e mi risponde!
+Sono venuto a contatto con **Giorgio Montanini** tramite la TV e il mio amore per la stand-up comedy (un po' poco considerata in Italia). Così gli scrivo per complimentarmi e mi risponde!
 
 Dopo qualche scambio di messaggi e una mia critica al suo sito online mi propone di rifarlo. E l'occasione è delle migliori: l'inizio di una sua trasmissione sulle reti Rai.
 

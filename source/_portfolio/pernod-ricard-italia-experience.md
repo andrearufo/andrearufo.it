@@ -8,7 +8,7 @@ link: http://prexperience.it/
 label: prexperience.it
 # note: 
 skills: php, wordpress, vue, design, user experience
-minore: 0
+minore: 1
 section: body
 ---
 

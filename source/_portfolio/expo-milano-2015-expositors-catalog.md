@@ -12,7 +12,7 @@ minore: 0
 section: body
 ---
 
-Direct2Brain mi contatta per aiutarli nella progettazione delle interfacce per il catalogo degli espositori di EXPO2015.
+**Direct2Brain** mi contatta per aiutarli nella progettazione delle interfacce per il catalogo degli espositori di **EXPO2015**.
 
 All'interno dell'EXPO, ormai alle porte, gli espositori dovevano poter scegliere il proprio posto e tutti i servizi che i partner di EXPO mettevano a loro disposizione. Presentare il tutto su tablet, con moltissime opzioni di scelta, informazioni, grafiche e dettagli è stata la cosa migliore.
 

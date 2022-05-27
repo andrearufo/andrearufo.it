@@ -23,17 +23,20 @@
                     <small class="text-muted d-block">
                         {{ $item['periodo'] }}
                     </small>
-                    <h3 class="mt-0">
-                        {{ $item['posizione'] }}
-                        @
-                        <strong>
-                            <a href="{{ $item['link'] }}" target="_blank">
-                                {{ $item['azienda'] }}
-                            </a>
-                        </strong>
-                        ―
-                        {{ $item['luogo'] }}
+                    <h3 class="m-0">
+                        <div>
+                            {{ $item['posizione'] }}
+                            @
+                            <strong>
+                                <a href="{{ $item['link'] }}" target="_blank">
+                                    {{ $item['azienda'] }}
+                                </a>
+                            </strong>
+                        </div>
                     </h3>
+                    <h4 class="mt-0 fs-5">
+                        ― {{ $item['luogo'] }}
+                    </h4>
 
                     <div>{{ $item['content'] }}</div>
 

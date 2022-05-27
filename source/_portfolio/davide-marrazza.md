@@ -12,4 +12,4 @@ minore: 1
 section: body
 ---
 
-Davide Marrazza è un ambizioso pasticcere pontino ed ha voluto realizzare un sito semplice e di impatto per offrire ai sui clienti un "primo assaggio" delle sue creazioni dolciarie.
+**Davide Marrazza** è un ambizioso pasticcere pontino ed ha voluto realizzare un sito semplice e di impatto per offrire ai sui clienti un "primo assaggio" delle sue creazioni dolciarie.
