@@ -160,11 +160,36 @@ pre{
 
 blockquote{
     @extend .blockquote;
+    font-style: italic;
+    padding: 0 $spacer;
+    position: relative;
+    margin: $spacer;
+
+    $d: 6px;
+
+    &::before{
+        content: '';
+        position: absolute;
+        width: $d;
+        left: 0;
+        top: 0;
+        height: 100%;
+        background-color: $border-color;
+        border-radius: $d;
+    }
 }
 
 .border-lg-end{
     @include media-breakpoint-up(lg){
         border-right: 1px solid $border-color;
+    }
+}
+
+article{
+    img{
+        @extend .img-thumbnail;
+        display: block;
+        margin: auto;
     }
 }
 

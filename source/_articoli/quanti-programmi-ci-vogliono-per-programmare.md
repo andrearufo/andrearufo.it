@@ -56,7 +56,6 @@ A parare mio il miglior client per la gestione dei database (in particolare MySQ
 
 - Costo: *free trial*
 - Link: [https://tableplus.com/](https://tableplus.com/)
-- 
 ### Postman
 
 Fondamentale per il check e test di endpoint o nella costruzione di Rest API. Ha un sacco di strumenti e controlli che permettono di eseguire routine molto complesse e quindi controlli molto approfonditi.

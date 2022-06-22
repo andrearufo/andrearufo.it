@@ -50,7 +50,7 @@
                 <div class="row justify-content-center">
                     <div class="col-xl-8 col-lg-9">
 
-                        @yield('body')
+                        <article>@yield('body')</article>
 
                     </div>
                 </div>

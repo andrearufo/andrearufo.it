@@ -654,8 +654,8 @@ $small-font-size: $font-size-sm;
 
 // $initialism-font-size:        $small-font-size !default;
 
-// $blockquote-margin-y:         $spacer !default;
-// $blockquote-font-size:        $font-size-base * 1.25 !default;
+$blockquote-margin-y:         $spacer * 2;
+$blockquote-font-size:        $font-size-base;
 // $blockquote-footer-color:     $gray-600 !default;
 // $blockquote-footer-font-size: $small-font-size !default;
 
