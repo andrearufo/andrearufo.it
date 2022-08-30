@@ -22,6 +22,10 @@ return [
         'url' => '/articoli'
     ],
     [
+        'label' => 'Liste',
+        'url' => '/liste'
+    ],
+    [
         'label' => 'Contattami',
         'url' => '/contattami'
     ]

@@ -26,6 +26,11 @@ return [
             'sort' => '-created_at',
             'author' => 'Andrea Rufo',
         ],
+        'liste' => [
+            'path' => 'liste/{filename}',
+            'sort' => '-created_at',
+            'author' => 'Andrea Rufo',
+        ],
         'portfolio' => [
             'path' => 'portfolio/{filename}',
             'sort' => ['minore', '-anno'],

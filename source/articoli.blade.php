@@ -38,7 +38,7 @@
                     </div>
                 </div>
             </article>
+
         @endforeach
-    </ul>
 
 @endsection
