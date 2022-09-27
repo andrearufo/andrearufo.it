@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+
+<title>I fondamenti per una buona collaborazione tra grafici e sviluppatori - Andrea Rufo, freelance full stack web developer personal portfolio</title>
+
+<link rel="canonical" href="https://www.andrearufo.it/articoli/2018/09/27/fondamenti-per-una-buona-collaborazione">
+<link rel="icon" type="image/svg+xml" href="https://www.andrearufo.it/assets/images/favicon.svg">
+<link rel="stylesheet" href="/assets/build/css/main.css?id=8ae7c04d1e375d9535f6fa7d5ee37ea9" media="screen">
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.14/vue.min.js" integrity="sha512-XdUZ5nrNkVySQBnnM5vzDqHai823Spoq1W3pJoQwomQja+o4Nw0Ew1ppxo5bhF2vMug6sfibhKWcNJsG8Vj9tg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-4918423-11"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('set', 'linker', {"domains":["www.andrearufo.it"]} );
+        gtag('js', new Date());
+
+        gtag("set", "developer_id.dZTNiMT", true);
+        gtag('config', 'UA-4918423-11');
+    </script>
+
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/color-brewer.min.css" integrity="sha512-SJm3cAu//Nn6+cv90D0Ue8ArsnjDlszVGE3o/0JX55VOd9/KVbSGTegrZhyNK6ttKMeLbR14ezeGWyBUmF1Aww==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js" integrity="sha512-Pbb8o120v5/hN/a6LjF4N4Lxou+xYZ0QcVF8J6TWhBbHmctQWd8O6xTDmHpE/91OjPzCk4JRoiJsexHYg4SotQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>hljs.highlightAll();</script>
+
+</head>
+<body>
+
+    <header class="sticky-top border-bottom">
+    <div class="container">
+
+        <div class="row align-items-center justify-content-between">
+            <div class="col-6 col-lg-auto col-logo">
+
+                <a href="/">
+                    <i class="fak fa-ar fa-lg"></i>
+                    <span class="sr-only">Andrea Rufo</span>
+                </a>
+
+            </div>
+            <div class="col-6 col-lg-8 col-menu text-end d-lg-block d-none">
+
+                <div id="desktopmenu">
+                    <ul class="menu">
+            <li class="menu-item not-current-menu-item" data-url="/" data-path="/articoli/2018/09/27/fondamenti-per-una-buona-collaborazione">
+            <a href="https://www.andrearufo.it/">
+                Home
+            </a>
+        </li>
+            <li class="menu-item not-current-menu-item" data-url="/informazioni" data-path="/articoli/2018/09/27/fondamenti-per-una-buona-collaborazione">
+            <a href="https://www.andrearufo.it/informazioni">
+                Informazioni
+            </a>
+        </li>
+            <li class="menu-item not-current-menu-item" data-url="/curriculum" data-path="/articoli/2018/09/27/fondamenti-per-una-buona-collaborazione">
+            <a href="https://www.andrearufo.it/curriculum">
+                Curriculum
+            </a>
+        </li>
+            <li class="menu-item not-current-menu-item" data-url="/portfolio" data-path="/articoli/2018/09/27/fondamenti-per-una-buona-collaborazione">
+            <a href="https://www.andrearufo.it/portfolio">
+                Portfolio
+            </a>
+        </li>
+            <li class="menu-item current-menu-item" data-url="/articoli" data-path="/articoli/2018/09/27/fondamenti-per-una-buona-collaborazione">
+            <a href="https://www.andrearufo.it/articoli">
+                Articoli
+            </a>
+        </li>
+            <li class="menu-item not-current-menu-item" data-url="/liste" data-path="/articoli/2018/09/27/fondamenti-per-una-buona-collaborazione">
+            <a href="https://www.andrearufo.it/liste">
+                Liste
+            </a>
+        </li>
+            <li class="menu-item not-current-menu-item" data-url="/contattami" data-path="/articoli/2018/09/27/fondamenti-per-una-buona-collaborazione">
+            <a href="https://www.andrearufo.it/contattami">
+                Contattami
+            </a>
+        </li>
+    </ul>
+                </div>
+
+            </div>
+            <div class="col-auto col-hamburger text-end d-lg-none d-flex">
+
+                <button class="btn btn-link" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobilemenu" aria-controls="mobilemenu" aria-label="Open mobile menu">
+                    <i class="fal fa-bars fa-lg"></i>
+                    <span class="sr-only">Menu</span>
+                </button>
+
+            </div>
+        </div>
+
+    </div>
+</header>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="mobilemenu" aria-labelledby="mobilemenu">
+    <div class="offcanvas-header">
+
+        <h5 class="offcanvas-title">Menu</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+    </div>
+    <div class="offcanvas-body">
+
+        <ul class="menu">
+            <li class="menu-item not-current-menu-item" data-url="/" data-path="/articoli/2018/09/27/fondamenti-per-una-buona-collaborazione">
+            <a href="https://www.andrearufo.it/">
+                Home
+            </a>
+        </li>
+            <li class="menu-item not-current-menu-item" data-url="/informazioni" data-path="/articoli/2018/09/27/fondamenti-per-una-buona-collaborazione">
+            <a href="https://www.andrearufo.it/informazioni">
+                Informazioni
+            </a>
+        </li>
+            <li class="menu-item not-current-menu-item" data-url="/curriculum" data-path="/articoli/2018/09/27/fondamenti-per-una-buona-collaborazione">
+            <a href="https://www.andrearufo.it/curriculum">
+                Curriculum
+            </a>
+        </li>
+            <li class="menu-item not-current-menu-item" data-url="/portfolio" data-path="/articoli/2018/09/27/fondamenti-per-una-buona-collaborazione">
+            <a href="https://www.andrearufo.it/portfolio">
+                Portfolio
+            </a>
+        </li>
+            <li class="menu-item current-menu-item" data-url="/articoli" data-path="/articoli/2018/09/27/fondamenti-per-una-buona-collaborazione">
+            <a href="https://www.andrearufo.it/articoli">
+                Articoli
+            </a>
+        </li>
+            <li class="menu-item not-current-menu-item" data-url="/liste" data-path="/articoli/2018/09/27/fondamenti-per-una-buona-collaborazione">
+            <a href="https://www.andrearufo.it/liste">
+                Liste
+            </a>
+        </li>
+            <li class="menu-item not-current-menu-item" data-url="/contattami" data-path="/articoli/2018/09/27/fondamenti-per-una-buona-collaborazione">
+            <a href="https://www.andrearufo.it/contattami">
+                Contattami
+            </a>
+        </li>
+    </ul>
+
+    </div>
+</div>
+
+    <main class="py-3">
+        <div class="container">
+
+            <section class="fondamenti-per-una-buona-collaborazione">
+
+                <div class="row justify-content-center">
+                    <div class="col-xl-8 col-lg-9">
+
+                        <small class="text-muted">
+                            <i class="fal fa-calendar"></i>
+                            27 set 18
+                        </small>
+                        <small class="text-muted ms-2">
+                            <i class="fal fa-clock"></i>
+                            3 minuti di lettura
+                        </small>
+
+                        <h1>I fondamenti per una buona collaborazione tra grafici e sviluppatori</h1>
+
+                    </div>
+                </div>
+
+                                    <div class="row justify-content-center">
+                        <div class="col-xl-10 col-lg-10">
+
+                            <div class="mb-5">
+                                <img src="/assets/images/articoli/Jan-Business_team_4-scaled.jpeg" class="shadow rounded w-100" title="Jan-Business_team_4-scaled.jpeg">
+                            </div>
+
+                        </div>
+                    </div>
+                
+                <div class="row justify-content-center">
+                    <div class="col-xl-8 col-lg-9">
+
+                        <article><blockquote>
+  <p>Questo è un vecchissimo articolo che scrissi sempre su questo sito e che, per un certo periodo, è finito sul sito di Axio Studio ma che ora ripubblico qui per non perderlo.</p>
+</blockquote>
+
+<h2>I progetti che richiedono il lavoro di un designer e di un developer possono presentare problemi di collaborazione. Ecco come provare a superarli.</h2>
+
+<p>Mettere insieme professionisti con <strong>differenti background</strong> è uno scenario che può facilmente portare alla nascita di varie problematiche, alcune delle quali rischiose. Il modus operandi dei <strong>designers</strong> può complicare il lavoro dei developers, viceversa i <strong>developers</strong>, dal canto loro, possono complicare il lavoro dei designers.</p>
+
+<p>Lavorando nel medesimo team è fondamentale che queste due anime <strong>riescano invece a comunicare, trovando un modo di relazionarsi</strong> che confluisca in un progetto di alto livello e con una reciproca soddisfazione professionale.</p>
+
+<h3>Entrambi devono avere competenze di base circa il lavoro altrui</h3>
+
+<p>Se in passato avete collaborato con un professionista dotato di competenze che riguardano tanto il design quanto lo sviluppo (un cosiddetto <em>full stack</em>), sarete d'accordo con me: non è poi così complicato lavorarci insieme.</p>
+
+<p>Il duplice background permette infatti a un full stack di <strong>capire e pensare in entrambi i sensi</strong>: lavorando con i designers individuerà già le difficoltà che emergeranno in fase di sviluppo e, di contro, nel team dei developers riuscirà a realizzare meglio le richieste di design e comunicazione.</p>
+
+<p>Lo scenario che consente la miglior interazione progettuale all'interno di un team è dunque quello in cui il grafico possiede competenze basilari di sviluppo e lo sviluppatore ne possiede in ambito grafico.</p>
+
+<h3>Gli sviluppatori devono essere coinvolti fin dal principio</h3>
+
+<p>Spesso e volentieri i team di grafica e di sviluppo lavorano separatamente l'uno dall'altro. Il grafico produce tavole e file, una volta terminati li consegna al developer che a quel punto ricorrerà ai propri strumenti per sviluppare quanto ricevuto.</p>
+
+<p>Questo modo di procedere, indipendente l'uno dall'altro, apre spesso la strada a progetti fallimentari: eventuali scogli o impasse sembreranno tecnicamente impossibili da superare, perché ogni singola difficoltà è stata valutata da un unico punto di vista e per la risoluzione bisognerà investire un'enorme quantità di tempo.</p>
+
+<p>È allora necessario che **gli sviluppatori siano coinvolti fin dalla pianificazione **e che possano intervenire indicando cosa è realistico aspettarsi rispetto al tempo e al budget disponibili.</p>
+
+<h3>I grafici devono creare file adatti agli sviluppatori</h3>
+
+<p>Dovrebbe essere ovvio, vero?!</p>
+
+<p>Eppure capita spesso di ricevere file in formati assolutamente inadatti, organizzati senza senso e con scelte tecniche incompatibili rispetto alle procedure di programmazione (<em>oh, i metodi di fusione sulle foto... che Odino vi maledica!</em>, ndr).</p>
+
+<p>Menzione a parte meriterebbero pure le modalità con cui vengono nominati file e livelli...</p>
+
+<p>La cosa migliore sarebbe allegare una <strong>documentazione</strong> ad ogni file, una descrizione o anche un semplice testo che aiuti a comprendere scelte e variazioni.</p>
+
+<p>Oggi esistono numerosi software che consentono di svolgere agevolmente un lavoro simile e comunque, francamente, inviare un file PSD senza alcun dettaglio o spiegazione di riferimento non è qualcosa di accettabile per un professionista.</p>
+
+<h3>I designers devono sapere che lo sviluppo comporta tempo</h3>
+
+<p>Spesso i designers non sanno che anche per una tavola molto semplice sono necessari tempi di sviluppo importanti per via delle complessità tecniche, strutturali e dei requisiti specifici.</p>
+
+<p>È fondamentale comprendere che <strong>questo tempo è necessario</strong> e va gestito di conseguenza.</p>
+
+<h3>Imparare l'uno dall'altro</h3>
+
+<p>La <strong>curiosità e l'apertura mentale</strong> sono un punto di forza per ogni persona di questo mondo!</p>
+
+<p>Quando si cerca di imparare qualcosa da qualcuno la tendenza è quella di costruire una <strong>relazione migliore</strong>, specialmente se l'approccio è genuino e lontano dal tentativo di manipolare il lavoro altrui.</p>
+
+<p>La via migliore è quella di mostrare un sincero interesse per il lavoro degli altri, fare domande per comprendere, essere pronti ad aiutare, spiegare e supportare chi ha interesse nel proprio campo.</p>
+
+<p>Un simile spirito va sicuramente a vantaggio di tutti.</p>
+
+<h2>Conclusioni</h2>
+
+<p>Grafici e sviluppatori parlano <strong>lingue diverse</strong> e vedono le cose in modo diverso. Ciò non toglie che, su molti progetti, dovrebbero imparare a lavorare insieme in una modalità più costruttiva.</p>
+
+<p>Se come designer o developer ti ritrovi in una situazione simile, prova a seguire questi semplici consigli e vedrai che riuscirai a collaborare con gli altri professionisti nel migliore dei modi.</p>
+
+<hr />
+
+<p>Credits: <a href="https://www.freepik.com/vectors/business">Business vector created by jcomp - www.freepik.com</a></p>
+</article>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="mt-3">
+                <script
+                src="https://utteranc.es/client.js"
+                repo="andrearufo/andrearufo-comments"
+                issue-term="pathname"
+                theme="github-light"
+                crossorigin="anonymous"
+                async>
+                </script>
+            </section>
+
+        </div>
+    </main>
+
+    <footer id="footer" class="py-3 border-top">
+    <div class="container">
+
+        <div class="row justify-content-between">
+            <div class="col-lg-5 col-xl-4">
+
+                <div class="footer-item">
+                    <div class="footer-item-title">
+                        Contatti
+                    </div>
+                    <div class="footer-item-content">
+                        <ul>
+                            <li><a target="_blank" href="mailto:a.rufo@axio.studio">a.rufo@axio.studio</a></li>
+                            <li><a target="_blank" href="tel:+393386213493">+39 338 62 13 493</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-item-title mt-3">
+                        Socials
+                    </div>
+                    <div class="footer-item-content">
+                        <ul>
+                                                            <li>
+                                    <a target="_blank" href="https://twitter.com/@andrearufo">twitter</a>
+                                </li>
+                                                            <li>
+                                    <a target="_blank" href="https://www.linkedin.com/in/andrearufo/">linkedin</a>
+                                </li>
+                                                            <li>
+                                    <a target="_blank" href="https://www.instagram.com/andrearufo/">instagram</a>
+                                </li>
+                                                            <li>
+                                    <a target="_blank" href="https://github.com/andrearufo">github</a>
+                                </li>
+                                                            <li>
+                                    <a target="_blank" href="https://www.youtube.com/c/andrearufo">youtube</a>
+                                </li>
+                                                            <li>
+                                    <a target="_blank" href="https://medium.com/@andrearufo">medium</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg text-lg-right">
+
+                <div class="footer-item">
+                    <div class="footer-item-content">
+                        <a href="https://www.iubenda.com/privacy-policy/867456" class="iubenda-black iubenda-embed" title="Privacy Policy ">Privacy Policy</a>
+                        <script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+                    </div>
+
+                    <div class="footer-item-content">
+                        Tutti i marchi riportati appartengono ai legittimi proprietari; marchi di terzi, nomi di prodotti, nomi commerciali, nomi corporativi e società citati possono essere marchi di proprietà dei rispettivi titolari o marchi registrati d’altre società e vengono utilizzati a puro scopo esplicativo ed a beneficio del possessore, senza alcun fine di violazione dei diritti di Copyright vigenti.
+                    </div>
+
+                    <div class="footer-item-content mt-1">
+                        <div class="text-muted">
+                            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" class="text-decoration-none">
+                                <i class="fab fa-creative-commons"></i>
+                                <i class="fab fa-creative-commons-by"></i>
+                                <i class="fab fa-creative-commons-nc-eu"></i>
+                                <i class="fab fa-creative-commons-sa"></i>
+                                4.0 2021
+                            </a>
+                            <span class="px-1">©</span>
+                            Andrea Rufo
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div id="cookie">
+        <div id="cookie-wrapper">
+            <div id="cookie-content">
+                <i class="fad fa-cookie-bite me-2"></i>
+                Questo sito <em>potrebbe</em> usare i cookie
+            </div>
+            <button id="cookie-ok">Ok</button>
+        </div>
+    </div>
+</footer>
+
+<script defer src="/assets/build/js/main.js?id=492af26348d65b9b2e57a935c7051173"></script>
+<script src="https://kit.fontawesome.com/7319c752cd.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
