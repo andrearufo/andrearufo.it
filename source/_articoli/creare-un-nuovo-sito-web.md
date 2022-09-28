@@ -1,7 +1,7 @@
 ---
 extends: _layouts.articoli
 title: Come e perché creare un nuovo sito web o applicazione
-image: scss-bootstrap.jpg
+image: false
 created_at: 2018-10-15
 section: body
 ---
