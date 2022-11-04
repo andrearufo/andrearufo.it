@@ -10,7 +10,7 @@
 
 <link rel="canonical" href="https://www.andrearufo.it/articoli/2020/10/29/come-si-usa-bootstrap-compilarlo-e-includerlo-nel-progetto">
 <link rel="icon" type="image/svg+xml" href="https://www.andrearufo.it/assets/images/favicon.svg">
-<link rel="stylesheet" href="/assets/build/css/main.css?id=8ae7c04d1e375d9535f6fa7d5ee37ea9" media="screen">
+<link rel="stylesheet" href="/assets/build/css/main.css?id=db3c6c84a08e21098354512852996454" media="screen">
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.14/vue.min.js" integrity="sha512-XdUZ5nrNkVySQBnnM5vzDqHai823Spoq1W3pJoQwomQja+o4Nw0Ew1ppxo5bhF2vMug6sfibhKWcNJsG8Vj9tg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -293,15 +293,15 @@ exports.build = build;
 
 <p>La prima cosa da fare è <strong>includere Bootstrap</strong> nel progetto facendo riferimento alla sua posizione in <code>node_modules</code>:</p>
 
-<pre><code class="language-scss">@import  '..node_modules/bootstrap/scss/bootstrap.scss'; 
+<pre><code class="language-scss">@import '..node_modules/bootstrap/scss/bootstrap.scss'; 
 </code></pre>
 
 <p>Ora, per <strong>personalizzarlo</strong>, per prima cosa possiamo andare a sovrascrivere le <strong>variabili</strong> del sistema di Bootstrap. Se non sapete quali sono e come si chiamano potete trovare il file di riferimento in <code>node_modules/bootstrap/scss/_variables.scss</code>.</p>
 
 <p>Vi consiglio quindi di creare un vostro file in <code>/dev/_variables.scss</code> e quindi includerlo nel <code>dev/styles.scss</code> ma, attenzione! prima di Bootstrap:</p>
 
-<pre><code class="language-scss">@import  'variables';
-@import  '../node_modules/bootstrap/scss/bootstrap.scss';
+<pre><code class="language-scss">@import 'variables';
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
 </code></pre>
 
 <p>Come vedete basta inserire il nome del file senza underscore davanti o estensione.</p>
@@ -316,7 +316,7 @@ exports.build = build;
 <li>Cambiamo il colore principale delle componenti modificando la variabile <code>$primary</code>;</li>
 <li>Togliamo i bordi arrotondati delle componenti modificando la variabile di Bootstrap <code>$border-radius</code>;</li>
 <li>Modifichiamo anche le tipologie di ombre che ci offre Bootstrap di standard modificando le variabili <code>$box-shadow</code>;</li>
-<li>Quindi applichiamo lo shadow alle componenti che vogliamo modificare di aspetto estendendo le classi con la classe standard <code>@extend  .shadow</code></li>
+<li>Quindi applichiamo lo shadow alle componenti che vogliamo modificare di aspetto estendendo le classi con la classe standard <code>@extend .shadow</code></li>
 </ul>
 
 <p>Quindi inseriamo nel file <code>/dev/_variables.scss</code>:</p>
@@ -328,11 +328,11 @@ $box-shadow: 10px 10px 0 rgba(0,0,0,.8);
 
 <p>Mentre nel <code>/dev/styles.scss</code> scriviamo:</p>
 
-<pre><code class="language-scss">@import  'variables';
-@import  '../node_modules/bootstrap/scss/bootstrap.scss';
+<pre><code class="language-scss">@import 'variables';
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
 
 .alert, .card{
-    @extend  .shadow;
+    @extend .shadow;
 }
 </code></pre>
 
@@ -448,7 +448,7 @@ $box-shadow: 10px 10px 0 rgba(0,0,0,.8);
     </div>
 </footer>
 
-<script defer src="/assets/build/js/main.js?id=492af26348d65b9b2e57a935c7051173"></script>
+<script defer src="/assets/build/js/main.js?id=0d0e7c71f137617afd46adf16bec0d7d"></script>
 <script src="https://kit.fontawesome.com/7319c752cd.js" crossorigin="anonymous"></script>
 
 </body>
